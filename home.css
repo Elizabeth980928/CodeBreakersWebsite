@@ -46,11 +46,7 @@ h1 {
   .h1 {text-align: center;
   }
   
-  .container {
-    display: flex;
-    flex-direction: column;
-    
-  }
+ 
   .about {
     background: #053a66;
     flex-grow: 1;
@@ -69,13 +65,7 @@ h1 {
     flex-grow: 1;
   }
   
-  .container > div {
-    font-size: medium;
-    color: white;
-    padding: 0%;
-    border-width: 5px;
-  }
-  
+ 
   
   .bottomnavbar{
     display: flex;
@@ -83,9 +73,7 @@ h1 {
   
   }
   
-  .container:nth-of-type(0){
-    color: white;
-  }
+
 
 html, body {
     height:100%;
@@ -105,13 +93,7 @@ footer{
     justify-content: space-between;
 }
 
-.container
-{
-    display: flex;
-    flex-direction:column;
-    height: 100%;
-    width: 100%;
-}
+
 
 .education{
     display: flex;

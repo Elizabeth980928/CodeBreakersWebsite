@@ -1,0 +1,228 @@
+
+
+  body{
+    background-color: #fcf6e7;
+    font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  }
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .flex-container > div {
+   
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #2196F3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   
+
+  }
+  .contactsUs{
+    color: black;
+    
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2196F3;
+  }
+  
+  /* Style the container/contact section */
+  .containerContact {
+    border-radius: 5px;
+  
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width:600px ){
+    .flex-container{
+        width:100%;
+       justify-content: center;
+    }
+    
+  }
+
+  .img{
+    max-width: 100%;
+   height: auto;
+  }
+
+  address{
+    padding-top: 17px;
+    text-align: left;
+  }
+
+  /* footer */
+  footer div{
+    align-self:center;
+ }
+ 
+ footer{
+  display: flex;
+  color: white;
+  height:41px;
+  background-color:#053a66;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-top: 20px;
+  
+ }
+ .twitterlogo{
+  height:20px;
+  width:40px;
+  
+ }
+ .facebooklogo{
+  height:20px;
+  width:40px;
+  margin-right:20px;
+ }
+ 
+ 
+ .socialMediaImg{
+  margin-right: 200px;
+ }
+
+/* nav bar */
+
+
+h1 {
+  color: white ;
+  align-items: center;
+  margin-left: 40%;
+
+}
+
+.background_img {
+  height: 340px;
+    margin: 0px;
+    padding: 70px;
+    background-image: url("https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos") ; 
+    background-size: cover ;
+
+}
+
+.logo {
+  background: url("https://o.remove.bg/downloads/0206abbb-08be-4667-9bce-010f3a8aed05/download-removebg-preview.png");
+  padding: 0px;
+  margin: 0px;
+  width: 300px;
+  height: 144px;
+  
+
+}
+
+
+.h1 {text-align: center;
+
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+}
+.about {
+  background: #053a66;
+  flex-grow: 1;
+  
+}
+
+.events{
+  background: #053a66;
+  flex-grow: 1;
+  
+ 
+}
+.faq{
+  background: #053a66;
+  flex-grow: 1;
+  
+  
+
+}
+.contact{
+  background: #053a66;
+  flex-grow: 1;
+ 
+  
+
+}
+
+.container > div {
+  
+  font-size: medium;
+  color: white;
+  padding: 0%;
+  border-width: 5px;
+  width: 100%;
+ 
+}
+
+
+.bottomnavbar{
+  display: flex;
+  justify-content: center;
+
+}
+
+.container:nth-of-type(0){
+  color: white;
+}
+
+.header30{
+  color: black;
+}

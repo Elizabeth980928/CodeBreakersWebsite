@@ -113,8 +113,6 @@ footer{
 .article
 {
     color: black;
-    display: flex;
-    justify-content:center;
     width: 100%;
     height: 30%;
     margin-bottom: 20px;
@@ -179,4 +177,9 @@ footer{
 
 footer div{
     align-self:center;
+}
+
+.container
+{
+  margin: 0;
 }

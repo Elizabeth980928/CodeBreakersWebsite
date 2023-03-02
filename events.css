@@ -149,5 +149,25 @@ footer{
 }
 
 footer div{
-  align-self:center;
+  align-self: center;
+}
+
+
+/*bootstrap css implementation*/
+.fixed-container {background-color: rgb(255, 253, 246);
+display: flex; 
+/*justify-content: center;*/
+padding: 40px;
+width: 70%;
+margin: 5rem auto 0 auto;
+border: 1px solid black;
+box-shadow: 7px 7px #2196f3;
+}
+.fixed-container img{
+height: 250px;
+width: 50%;
+}
+.fixed-container p, h3{
+margin: 0;
+padding-left: 3%;
 }

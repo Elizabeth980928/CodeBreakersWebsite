@@ -226,3 +226,12 @@ h1 {
 .header30{
   color: black;
 }
+.contactlogos{
+  width:75px;
+  height:75px;
+}
+
+form{
+  border: 1px black solid;
+  padding: 20px;
+}

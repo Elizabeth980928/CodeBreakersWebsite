@@ -1,19 +1,15 @@
 /* HOME PAGE CSS */
 
-.container h1{color: black;}
+/* .container h1{color: black;}
 
 .container .toptext{color: black;}
 
 .container .middletext{color: black;}
 
-.container .bottomtext{color: black;}
+.container .bottomtext{color: black;} */
 
-.container .background_img{color: white;}
+/* .container .background_img{color: white;} */
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-  }
 h1 {
     color: white ;
     align-items: center;
@@ -74,6 +70,7 @@ h1 {
 
 
 html, body {
+    font-family: Arial, Helvetica, sans-serif;
     height:100%;
     /* background-color: #fcf6e7; */
     margin: 0;
@@ -81,11 +78,19 @@ html, body {
 
 
 footer{
+  position: absolute;
     display: flex;
     color: white;
-    height:39px;
+    height: 2.5rem; 
+    width: 100%;
     background-color:#053a66;
     justify-content: space-between;
+    bottom: 0;
+}
+
+#page-container {
+  position: relative;
+  min-height: 8vh;
 }
 
 
@@ -149,3 +154,39 @@ footer{
 header{
   margin-bottom: 100px;
 }
+
+/* COPY FOOTER CSS FROM HERE! */
+
+/* NEW FOOTER CSS */
+/* .footer .container {
+  padding: 60px;
+} */
+
+h5 {
+  padding-top: 20px ;
+}
+
+.homeFooter {
+  margin-top: 20px;
+  /* margin-left: 10px; */
+}
+
+.contactFooter {
+  margin-top: 20px;
+  margin-left: 35px;
+  
+}
+
+.aboutFooter {
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.fa{
+margin-top: 15px;
+padding: 10px;
+}
+
+
+
+/* COPY FOOTER CSS UNTIL HERE! */

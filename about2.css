@@ -32,43 +32,12 @@ a{
    
 
     border: 1px solid;
-    box-shadow: 7px 7px #2196F3;
+    box-shadow: 5px 7px #2196F3;
   
     
 
  }
 
- /* footer */
- footer div{
-   align-self:center;
-}
-
-footer{
- display: flex;
- color: white;
- height:41px;
- background-color:#053a66;
- justify-content: space-between;
- margin-top: 30px;
- padding-top: 20px;
- 
-}
-.twitterlogo{
- height:20px;
- width:40px;
- 
-}
-.facebooklogo{
- height:20px;
- width:40px;
- margin-right:20px;
-}
-
-
-.socialMediaImg{
- margin-right: 200px;
-}
-   
 
 /* main page */
 
@@ -166,7 +135,7 @@ h1 {
 body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background-color: #fcf6e7;
+
   padding-bottom: 40px;
 }
 
@@ -179,6 +148,7 @@ body{
   margin-top: 0;
   margin-left:0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 253, 246);;
 }
 h1 {
   color: white ;
@@ -284,7 +254,7 @@ h1{
   width: 70%;
   margin: 5rem auto 0 auto;
   border: 1px solid black;
-  box-shadow: 7px 7px #2196f3;
+  box-shadow: 5px 7px #2196f3;
 }
 .section img{
 height: 250px;
@@ -304,17 +274,6 @@ padding-left: 3%;
   color: rgb(255, 253, 246);
 } 
 
-footer{
-  display: flex;
-  color: white;
-  height:39px;
-  background-color:#053a66;
-  justify-content: space-between;
-}
-
-footer div{
-  align-self:center;
-}
 
 .carousel{
   width:560;
@@ -345,4 +304,82 @@ footer div{
     width:250px;
   }
  }
+ /*css for footer starts here*/
+.socialMediaImg{
+  margin-right: 200px;
+}
+
+ /* NEW FOOTER CSS */
+/* .footer .container {
+  padding: 60px;
+} */
+
+h5 {
+  padding-top: 20px ;
+}
+
+.homeFooter {
+  margin-top: 20px;
+  /* margin-left: 10px; */
+}
+
+.contactFooter {
+  margin-top: 20px;
+  margin-left: 35px;
+  
+}
+
+.aboutFooter {
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.fa{
+margin-top: 15px;
+padding: 10px;
+}
+
+/* COPY FOOTER CSS UNTIL HERE! */
+
+ @media (max-width:  767.98px) { 
+  .section{
+   display: block;
+  
+  }
+ }
+
+ 
+ 
+/* NEW FOOTER CSS */
+.footer .container {
+  padding: 60px;
+}
+
+h5 {
+  padding-top: 20px ;
+}
+
+.homeFooter {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.contactFooter {
+  margin-top: 20px;
+  margin-left: 35px;
+  
+}
+
+.aboutFooter {
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.fa{
+  margin-top: 15px;
+padding: 10px;
+}
+
+/* COPY TILL HERE */
+
 

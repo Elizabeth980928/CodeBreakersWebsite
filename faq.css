@@ -141,30 +141,40 @@ details[open] summary {
   margin-right: 200px;
 }
 
-.twitterlogo{
-  height:20px;
-  width:40px;
+
+
+
+
+/* COPY FOOTER CSS FROM HERE! */
+
+/* NEW FOOTER CSS */
+/* .footer .container {
+  padding: 60px;
+} */
+
+h5 {
+  padding-top: 20px ;
+}
+
+.homeFooter {
+  margin-top: 20px;
+  /* margin-left: 10px; */
+}
+
+.contactFooter {
+  margin-top: 20px;
+  margin-left: 35px;
   
 }
-.facebooklogo{
-  height:20px;
-  width:40px;
-  margin-right:20px;
+
+.aboutFooter {
+  margin-top: 20px;
+  margin-left: 35px;
 }
 
-
-
-
-
-footer{
-  display: flex;
-  color: white;
-  height:39px;
-  background-color: #053a66;
-  justify-content: space-between;
+.fa{
+margin-top: 15px;
+padding: 10px;
 }
 
-footer div{
-  align-self:center;
-  
-}
+/* COPY FOOTER CSS UNTIL HERE! */

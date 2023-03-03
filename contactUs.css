@@ -18,7 +18,7 @@
   .flex-container > div {
    
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
   }
 
@@ -88,11 +88,14 @@
 
   @media screen and (max-width:600px ){
     .flex-container{
+
      
       display: flex;
        flex-direction: column;
-     
-        
+    
+        width:100%;
+       justify-content: center;
+
     }
     
   }
@@ -245,4 +248,13 @@ h1 {
 
 .header30{
   color: black;
+}
+.contactlogos{
+  width:75px;
+  height:75px;
+}
+
+form{
+  border: 1px black solid;
+  padding: 20px;
 }

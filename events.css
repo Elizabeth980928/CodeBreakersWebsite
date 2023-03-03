@@ -174,4 +174,35 @@ margin: 0;
 padding-left: 3%;
 }
 
-/*css for footer is in the events html code*/
+
+/* NEW FOOTER CSS */
+.footer .container {
+  padding: 60px;
+}
+
+h5 {
+  padding-top: 20px ;
+}
+
+.homeFooter {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.contactFooter {
+  margin-top: 20px;
+  margin-left: 35px;
+  
+}
+
+.aboutFooter {
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.fa{
+  margin-top: 15px;
+padding: 10px;
+}
+
+/* COPY TILL HERE */

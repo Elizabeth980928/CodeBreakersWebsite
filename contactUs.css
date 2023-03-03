@@ -88,13 +88,31 @@
 
   @media screen and (max-width:600px ){
     .flex-container{
-        width:100%;
-       justify-content: center;
+     
+      display: flex;
        flex-direction: column;
-      
+     
+        
     }
     
   }
+  
+  
+  @media screen and (max-width:600px ){
+    .flex-container > div {
+     
+     
+    width: 100%;
+    margin: 10px;
+      
+     
+        
+    }
+    
+  }
+  
+  
+
 
   .img{
     max-width: 100%;

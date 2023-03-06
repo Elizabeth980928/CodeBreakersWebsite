@@ -24,10 +24,10 @@
 body {background: color #fcf6e7;
 }
 
-h1 {
+#FAQ {
+  text-align: center;
   color:black; 
-  margin-left: 150px; 
-  padding-top: 40px;
+   
 }
 
 details {

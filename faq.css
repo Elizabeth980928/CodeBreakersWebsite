@@ -10,7 +10,7 @@
   display: flex;
 } */
 
-.container{
+#container1 {
   padding: 5px;
 }
 .headerLinks{
@@ -24,6 +24,12 @@
 body {background: color #fcf6e7;
 }
 
+h1 {
+  color:black; 
+  margin-left: 150px; 
+  padding-top: 40px;
+}
+
 details {
 border: 1px solid color #fffdf6;    
 padding: .75em .75em 0;
@@ -34,7 +40,7 @@ box-shadow: 5px 5px #2196f3;
 width: 100%
 }
 
-.container {display: flex;
+#faqContainer {display: flex;
 justify-content: center;
 align-items: center;
 }
@@ -48,26 +54,21 @@ summary {
 
 }
 
+/* details {
+
+} */
+
 details[open] {
   padding: .75em;
-border-bottom: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 details[open] summary {
   border-bottom: 1px solid #d4d4d4;
   margin-bottom: 10px;
 }
-.p{ color:black}
+.p { color:black}
 /*css for FAQ ends here*/
-
-
-/*css for footer starts here*/
-.socialMediaImg{
-  margin-right: 200px;
-}
-
-
-
 
 
 /* COPY FOOTER CSS FROM HERE! */

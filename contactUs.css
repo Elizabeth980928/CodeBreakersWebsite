@@ -60,7 +60,7 @@
   /* Style the container/contact section */
   .containerContact {
     border-radius: 5px;
-  
+    background-color: #fcf6e7;
     padding: 10px;
   }
   
@@ -288,3 +288,6 @@ padding: 10px;
 }
 
 /* menu */
+.container_body{
+  background-color: #fcf6e7;
+}

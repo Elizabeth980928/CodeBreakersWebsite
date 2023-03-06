@@ -103,8 +103,9 @@ h1 {
 
 h1{
   color: black;
+  
 }
-
+ #eventsh1 {text-align: center;}
 /*.flex-container ul {
   
   display: flex;
@@ -186,7 +187,7 @@ border: 1px solid black;
 box-shadow: 7px 7px #2196f3;
 }
 .fixed-container img{
-height: 250px;
+height: 260px;
 width: 50%;
 }
 .fixed-container p, h3{

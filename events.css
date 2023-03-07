@@ -177,7 +177,7 @@ footer div{
 
 
 /*bootstrap css implementation*/
-.fixed-container {background-color: rgb(255, 253, 246);
+.fixed-container {background-color: white;
 display: flex; 
 /*justify-content: center;*/
 padding: 40px;
@@ -193,7 +193,9 @@ width: 50%;
 .fixed-container p, h3{
 margin: 0;
 padding-left: 3%;
+
 }
+
 
 
 /* NEW FOOTER CSS */

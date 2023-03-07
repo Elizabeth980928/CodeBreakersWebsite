@@ -70,11 +70,7 @@ h1 {
  }
  
  
- .h1 {text-align: center;
 
- 
- }
- 
  .container {
    display: flex;
    flex-direction: column;
@@ -143,7 +139,6 @@ body{
 
 a{
   color:white;
-  text-decoration: none;
 }
 
 body{
@@ -159,14 +154,7 @@ h1 {
 
 }
 
-.background_img {
-  height: 340px;
-    margin: 0px;
-    padding: 70px;
-    background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos') ; 
-    background-size: cover ;
 
-}
 
 .logo {
   background: url("https://o.remove.bg/downloads/0206abbb-08be-4667-9bce-010f3a8aed05/download-removebg-preview.png");

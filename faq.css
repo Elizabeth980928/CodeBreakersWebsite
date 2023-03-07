@@ -3,12 +3,9 @@
 /*css for header starts here */
 .jumbotron {
   background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos');
-  background-size: cover;
+  background-size: contain;
+  margin-bottom: 0;
 }
-
-/* .nav{
-  display: flex;
-} */
 
 #container1 {
   padding: 5px;
@@ -18,10 +15,20 @@
   flex-direction: row;
 }
 
+.searchbar {
+  margin-left: 787.5px;
+}
+
+.logo {max-width: 25%;}
+
 /* CSS for header ends here */
 
 /*css for FAQ starts here*/
-body {background: color #fcf6e7;
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  height:100%;
+  /* background-color: #fcf6e7; */
+  margin: 0;
 }
 
 #FAQ {

@@ -21,36 +21,45 @@
 
 
 <body style="background-color: #fcf6e7;">
-  <div class="container background_img">
-    <div class="logo"></div>
-    <div>
-      <a href="home.htm"><img src="images/schoolLogo.png" alt="logo"></a>      
-    </div>
 
-    <h1 style="color: white">Mzamomtsha Primary School</h1>
-      
-          <div class="bottomnavbar">
-            <div class="about" >
-                <a href="about2.html">ABOUT</a>
+  <header>
+    <div class="jumbotron jumbotron-fluid text-white">
+        <div class="container" id="container1">
+            <div class="logo"></div>
+            <div>
+                <a href="home.htm"><img src="images/schoolLogo.png" alt="logo"></a>      
             </div>
+            <h1 class="display-2">Mzamomtsha Primary School</h1> 
+        </div>
     
-            <div class="events">
-                <a href="events.html">EVENTS</a>
+        <nav class="container" style="background-color: #023a62;">
+            <div class="row">
+                <div class="col-6 headerLinks justify-content-between">
+                    <a class="nav-link active"href="about2.html"data-toggle="tab" style="color: white;">ABOUT</a>
+                    <a class="nav-link"href="events.html"data-toggle="tab" style="color: white;" >EVENTS</a>
+                    <a class="nav-link"href="faq.html"data-toggle="tab" style="color: white;" >FAQ</a>
+                    <a class="nav-link"href="contactUs.html"data-toggle="tab" style="color: white;" >CONTACT</a>
+                </div>
+                <div class="col-6 text-right align-self-center">
+                    <input type="text" placeholder="Search..">
+                </div>
             </div>
-            <div class="faq">
-                <a href="faq.html">FAQ</a>
-            </div>
-            <div class="contact">
-                <a href="contactUs.html">CONTACT</a>
-            </div>
-            <input type="text" placeholder="Search..">
-          </div>
-  </div>
+        </nav> 
+    </div>
+    
+</header><br><br><br>
+
+
+
+
+
+
+ 
   <!--Heading-->
-  <h2 style="color:black; margin-left: 90px; padding-top: 40px;">Frequently Asked Questions</h2>
+  <h1 class="display-4" style="color:black; margin-left: 150px; padding-top: 40px;" id="FAQ"><strong>Frequently Asked Questions</strong> </h1>
   <br>
 
-  <div class="container">
+  <div class="container" id="faqContainer">
   <!--The questions and answers:
   each question is wrapped in a details tag, with the summary tag being the text that shows when the questionis clicked on.
   -->
@@ -108,16 +117,16 @@
 
         <!-- <div class="col-md-3 mb-md-0 mb-3"> -->
           <div class="col-lg-4">
-            <div class="row">
-              <div class=" col homeFooter">
+            <div class="row justify-content-around">
+              <div class=" col-2 homeFooter">
                 <a href="home.htm" style="color: white;"><strong>Home</strong> </a>
               </div>
   
-              <div class=" col-4 contactusText contactFooter">
+              <div class=" col-2 contactFooter">
                 <a href="contactUs.html" style="color: white;"><strong>Contact Us</strong> </a>
               </div>
   
-              <div class="col-3 aboutFooter">
+              <div class="col-2 aboutFooter">
                 <a href="about2.html" style="color: white;"><strong>About</strong> </a>
               </div>
             </div>

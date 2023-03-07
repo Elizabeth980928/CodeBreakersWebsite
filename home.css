@@ -1,45 +1,21 @@
-/* HOME PAGE CSS */
 
-/* .container h1{color: black;}
 
-.container .toptext{color: black;}
-
-.container .middletext{color: black;}
-
-.container .bottomtext{color: black;} */
-
-/* .container .background_img{color: white;} */
-
-h1 {
+/* h1 {
     color: white ;
     align-items: center;
     margin-left: 40%;
   
-  }
+  } */
   
-  .background_img {
-    height: 340px;
-      margin: 0px;
-      padding: 70px;
-      background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos') ; 
-      background-size: cover ;
-  
-  }
   a{
     color:white;
     text-decoration: none;
   }
   .logo {
-    /* background: ; */
-    padding: 0px;
-    margin: 0px;
-    width: 50px;
-    height: 100px;
+    max-width: 25%;
   }  
   
-  .h1 {text-align: center;
-  }
-  
+ 
  
   .about {
     background: #053a66;
@@ -78,19 +54,19 @@ html, body {
 
 
 footer{
-  position: absolute;
+  
     display: flex;
     color: white;
-    height: 2.5rem; 
+    min-height:25vh;
     width: 100%;
     background-color:#053a66;
     justify-content: space-between;
-    bottom: 0;
+
 }
 
 #page-container {
   position: relative;
-  min-height: 8vh;
+  min-height: 10vh;
 }
 
 
@@ -151,10 +127,6 @@ footer{
 }
 
 
-header{
-  margin-bottom: 100px;
-}
-
 /* COPY FOOTER CSS FROM HERE! */
 
 /* NEW FOOTER CSS */
@@ -190,3 +162,38 @@ padding: 10px;
 
 
 /* COPY FOOTER CSS UNTIL HERE! */
+
+
+.jumbotron{
+  background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos');
+
+  background-size:contain;
+
+  margin-bottom: 0;
+}
+
+
+.container{
+  padding: 5px;
+}
+.headerLinks{
+  display: flex;
+  flex-direction: row;
+}
+
+footer{
+  background-color: #053a66;
+}
+
+@media (min-width: 992px){
+  footer{
+      position:absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+  }
+}
+
+.searchbar{
+  margin-left: 787.5px;
+}

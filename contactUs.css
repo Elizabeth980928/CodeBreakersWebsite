@@ -3,7 +3,7 @@
   body{
     background-color: #fcf6e7;
     font-family: Arial, Helvetica, sans-serif;
-  margin: auto;
+
   }
   a{
     color:white;
@@ -13,13 +13,14 @@
     display: flex;
     justify-content: center;
     
+    
   }
   
   .flex-container > div {
    
     margin: 10px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   * {
@@ -59,7 +60,7 @@
   /* Style the container/contact section */
   .containerContact {
     border-radius: 5px;
-  
+    background-color: #fcf6e7;
     padding: 10px;
   }
   
@@ -127,36 +128,7 @@
     text-align: left;
   }
 
-  /* footer */
-  footer div{
-    align-self:center;
- }
- 
- footer{
-  display: flex;
-  color: white;
-  height:41px;
-  background-color:#053a66;
-  justify-content: space-between;
-  margin-top: 30px;
-  padding-top: 20px;
-  
- }
- .twitterlogo{
-  height:20px;
-  width:40px;
-  
- }
- .facebooklogo{
-  height:20px;
-  width:40px;
-  margin-right:20px;
- }
- 
- 
- .socialMediaImg{
-  margin-right: 200px;
- }
+
 
 /* nav bar */
 
@@ -260,10 +232,12 @@ form{
 }
 
 
+
+
 /* NEW FOOTER CSS */
-/* .footer .container {
+.footer .container {
   padding: 60px;
-} */
+}
 
 h5 {
   padding-top: 20px ;
@@ -271,7 +245,7 @@ h5 {
 
 .homeFooter {
   margin-top: 20px;
-  /* margin-left: 10px; */
+  margin-left: 10px;
 }
 
 .contactFooter {
@@ -286,8 +260,34 @@ h5 {
 }
 
 .fa{
-margin-top: 15px;
+  margin-top: 15px;
 padding: 10px;
 }
 
-/* COPY FOOTER CSS UNTIL HERE! */
+
+
+
+
+
+/* menu */
+.jumbotron {
+  background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos');
+  background-size: cover;
+}
+
+/* .nav{
+  display: flex;
+} */
+
+.container{
+  padding: 5px;
+}
+.headerLinks{
+  display: flex;
+  flex-direction: row;
+}
+
+/* menu */
+.container_body{
+  background-color: #fcf6e7;
+}

@@ -152,7 +152,7 @@ footer{
 
 
 header{
-  margin-bottom: 100px;
+
 }
 
 /* COPY FOOTER CSS FROM HERE! */
@@ -192,9 +192,10 @@ padding: 10px;
 /* COPY FOOTER CSS UNTIL HERE! */
 
 
-.jumbotron {
+.jumbotron{
   background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos');
   background-size: cover;
+  margin-bottom: 0;
 }
 
 /* .nav{
@@ -220,4 +221,8 @@ footer{
       bottom: 0;
       left: 0;
   }
+}
+
+.searchbar{
+  margin-left: 787.5px;
 }

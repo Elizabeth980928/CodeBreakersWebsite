@@ -140,7 +140,7 @@ padding-left: 3%;
   width: 50px;
 } */
  ul li:nth-of-type(5){
-  color: rgb(255, 253, 246);
+  color: white;
 } 
 
 /*footer{ 
@@ -187,8 +187,8 @@ border: 1px solid black;
 box-shadow: 7px 7px #2196f3;
 }
 .fixed-container img{
-height: 260px;
-width: 50%;
+height: 250px;
+width: 100px;
 }
 .fixed-container p, h3{
 margin: 0;
@@ -229,3 +229,10 @@ padding: 10px;
 }
 
 /* COPY TILL HERE */
+
+
+/*.fixed-container img{
+  width: 200px;
+  height: 200px;
+
+}*/

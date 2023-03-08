@@ -16,9 +16,7 @@ a{
      
     
   }
-  .header{
-   color: black;
-  }
+
 
   .flex{
      display: flex;
@@ -43,12 +41,7 @@ a{
 
 /* main page */
 
-h1 {
-   color: white ;
-   align-items: center;
-   margin-left: 40%;
- 
- }
+
  
  .background_img {
    height: 340px;
@@ -60,12 +53,7 @@ h1 {
  }
  
  .logo {
-   background: url("https://o.remove.bg/downloads/0206abbb-08be-4667-9bce-010f3a8aed05/download-removebg-preview.png");
-   padding: 0px;
-   margin: 0px;
-   width: 300px;
-   height: 144px;
-   
+   max-width: 25%;
  
  }
  
@@ -147,29 +135,24 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(255, 253, 246);;
 }
-h1 {
+/* h1 {
   color: white ;
   align-items: center;
   margin-left: 40%;
 
-}
+} */
 
 
 
 .logo {
-  background: url("https://o.remove.bg/downloads/0206abbb-08be-4667-9bce-010f3a8aed05/download-removebg-preview.png");
-  padding: 0px;
-  margin: 0px;
-  width: 300px;
-  height: 144px;
+  /* background: url("https://o.remove.bg/downloads/0206abbb-08be-4667-9bce-010f3a8aed05/download-removebg-preview.png"); */
+max-width: 25%;
   
 
 }
 
 
-.h1 {text-align: center;
 
-}
 
 .container {
   display: flex;
@@ -224,9 +207,7 @@ h1 {
   color: white;
 }
 
-h1{
-  color: black;
-}
+
 
 .flex-container ul {
   
@@ -345,6 +326,15 @@ padding: 10px;
 }
 
 /* COPY TILL HERE */
+.jumbotron{
+  background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos');
 
+  background-size:contain;
 
+  margin-bottom: 0;
+}
+
+.aboutheader{
+  text-align: center;
+}
 

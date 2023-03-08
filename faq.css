@@ -1,102 +1,40 @@
 /*FAQ CSS page :) */
 
-/*css for header */
-body{
-  margin-top: 0;
-  margin-left:0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-h1 {
-  color: white ;
-  align-items: center;
-  margin-left: 40%;
-
-}
-a{
-  color:white;
-  text-decoration: none;
+/*css for header starts here */
+.jumbotron {
+  background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos');
+  background-size: contain;
+  margin-bottom: 0;
 }
 
-.background_img {
-  height: 340px;
-    margin: 0px;
-    padding: 70px;
-    background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos') ; 
-    background-size: cover ;
-
+#container1 {
+  padding: 5px;
 }
-
-.logo {
-  background: url("https://o.remove.bg/downloads/0206abbb-08be-4667-9bce-010f3a8aed05/download-removebg-preview.png");
-  padding: 0px;
-  margin: 0px;
-  width: 300px;
-  height: 144px;
-  
-
-}
-
-
-.h1 {text-align: center;
-
-}
-
-.container {
+.headerLinks{
   display: flex;
-  flex-direction: column;
-  
-}
-.about {
-  background: #053a66;
-  flex-grow: 1;
-  
+  flex-direction: row;
 }
 
-.events{
-  background: #053a66;
-  flex-grow: 1;
-  
- 
-}
-.faq{
-  background: #053a66;
-  flex-grow: 1;
-  
-  
-
-}
-.contact{
-  background: #053a66;
-  flex-grow: 1;
- 
-  
-
+.searchbar {
+  margin-left: 787.5px;
 }
 
-.container > div {
-  
-  font-size: medium;
-  color: white;
-  padding: 0%;
-  border-width: 5px;
-  width: 100%
- 
-}
+.logo {max-width: 25%;}
 
-
-.bottomnavbar{
-  display: flex;
-  justify-content: center;
-
-}
-
-.container:nth-of-type(0){
-  color: white;
-}
-/*css for header ends here*/
+/* CSS for header ends here */
 
 /*css for FAQ starts here*/
-body {background: color #fcf6e7;
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  height:100%;
+  /* background-color: #fcf6e7; */
+  margin: 0;
+}
+
+#FAQ {
+  text-align: center;
+  color:black; 
+   
 }
 
 details {
@@ -109,7 +47,7 @@ box-shadow: 5px 5px #2196f3;
 width: 100%
 }
 
-.container {display: flex;
+#faqContainer {display: flex;
 justify-content: center;
 align-items: center;
 }
@@ -123,26 +61,21 @@ summary {
 
 }
 
+/* details {
+
+} */
+
 details[open] {
   padding: .75em;
-border-bottom: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 details[open] summary {
   border-bottom: 1px solid #d4d4d4;
   margin-bottom: 10px;
 }
-.p{ color:black}
+.p { color:black}
 /*css for FAQ ends here*/
-
-
-/*css for footer starts here*/
-.socialMediaImg{
-  margin-right: 200px;
-}
-
-
-
 
 
 /* COPY FOOTER CSS FROM HERE! */
@@ -158,18 +91,18 @@ h5 {
 
 .homeFooter {
   margin-top: 20px;
-  /* margin-left: 10px; */
+
 }
 
 .contactFooter {
   margin-top: 20px;
-  margin-left: 35px;
+
   
 }
 
 .aboutFooter {
   margin-top: 20px;
-  margin-left: 35px;
+ 
 }
 
 .fa{
@@ -177,4 +110,7 @@ margin-top: 15px;
 padding: 10px;
 }
 
+.contactusText{
+  width: 60px;
+}
 /* COPY FOOTER CSS UNTIL HERE! */

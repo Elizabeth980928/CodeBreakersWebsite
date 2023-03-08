@@ -7,50 +7,63 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
 
-  <link rel="stylesheet" href="faq.css">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="faq.css">
+
   <!-- Social Media Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <title>FAQ Page</title>
 
 </head>
 
 
-<body style="background-color: #fcf6e7;">
-  <div class="container background_img">
-    <div class="logo"></div>
-    <div>
-      <a href="home.htm"><img src="images/schoolLogo.png" alt="logo"></a>      
+<body>
+
+  <header>
+
+    <div class="jumbotron jumbotron-fluid text-white">
+        <div class="container">
+          <div class="schoolbackground row">
+            <div class=" col logo">
+              <a href="home.htm"><img src="images/schoolLogo.png" alt="logo"></a> 
+            </div>
+            <div class="col">
+              <h1 class="display-3">Mzamomtsha Primary School</h1> 
+            </div>
+          </div>
+        </div>
+    
+        <!-- justify-content-center  flex-column flex-md-row   -->
     </div>
 
-    <h1 style="color: white">Mzamomtsha Primary School</h1>
-      
-          <div class="bottomnavbar">
-            <div class="about" >
-                <a href="about2.html">ABOUT</a>
-            </div>
-    
-            <div class="events">
-                <a href="events.html">EVENTS</a>
-            </div>
-            <div class="faq">
-                <a href="faq.html">FAQ</a>
-            </div>
-            <div class="contact">
-                <a href="contactUs.html">CONTACT</a>
-            </div>
-            <input type="text" placeholder="Search..">
+    <nav class="container-fluid" style="background-color: #023a62;">
+      <div class="row">
+          <div class="col-6 headerLinks justify-content-between">
+              <a class="nav-link active"href="home.htm"data-toggle="tab" style="color: white;">Home</a>
+              <a class="nav-link active"href="about2.html"data-toggle="tab" style="color: white;">About</a>
+              <a class="nav-link active"href="events.html"data-toggle="tab" style="color: white;" >Events</a>
+              <a class="nav-link active"href="faq.html"data-toggle="tab" style="color: white;" >FAQ</a>
+              <a class="nav-link active"href="contactUs.html"data-toggle="tab" style="color: white;" >Contact</a>
+              <a class="nav-link active"href="Staff.htm"data-toggle="tab" style="color: white;" >Staff</a>
+              
           </div>
-  </div>
+          <input class='searchbar'type="text" placeholder="Search..">
+          <!-- <div class="col-6 text-right align-self-center">
+              <input type="text" placeholder="Search..">
+          </div> -->
+      </div>
+  </nav>
+</header><br>
+
   <!--Heading-->
-  <h2 style="color:black; margin-left: 90px; padding-top: 40px;">Frequently Asked Questions</h2>
+  <h1 class="display-4" style="color:black; padding-top: 20px;" id="FAQ"><strong>Frequently Asked Questions</strong> </h1>
   <br>
 
-  <div class="container">
+  <div class="container" id="faqContainer">
   <!--The questions and answers:
   each question is wrapped in a details tag, with the summary tag being the text that shows when the questionis clicked on.
   -->
@@ -108,16 +121,16 @@
 
         <!-- <div class="col-md-3 mb-md-0 mb-3"> -->
           <div class="col-lg-4">
-            <div class="row">
-              <div class=" col homeFooter">
+            <div class="row justify-content-around">
+              <div class=" col-2 homeFooter">
                 <a href="home.htm" style="color: white;"><strong>Home</strong> </a>
               </div>
   
-              <div class=" col-4 contactusText contactFooter">
+              <div class=" col-2 contactFooter">
                 <a href="contactUs.html" style="color: white;"><strong>Contact Us</strong> </a>
               </div>
   
-              <div class="col-3 aboutFooter">
+              <div class="col-2 aboutFooter">
                 <a href="about2.html" style="color: white;"><strong>About</strong> </a>
               </div>
             </div>

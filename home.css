@@ -183,14 +183,14 @@ footer{
   background-color: #053a66;
 }
 
-@media (min-width: 992px){
+/* @media (min-width: 992px){
   footer{
       position:absolute;
       right: 0;
       bottom: 0;
       left: 0;
   }
-}
+} */
 
 .searchbar{
   margin-left: 270px;

@@ -140,7 +140,7 @@ padding-left: 3%;
   width: 50px;
 } */
  ul li:nth-of-type(5){
-  color: rgb(255, 253, 246);
+  color: white;
 } 
 
 /*footer{ 
@@ -177,7 +177,7 @@ footer div{
 
 
 /*bootstrap css implementation*/
-.fixed-container {background-color: rgb(255, 253, 246);
+.fixed-container {background-color: white;
 display: flex; 
 /*justify-content: center;*/
 padding: 40px;
@@ -187,13 +187,15 @@ border: 1px solid black;
 box-shadow: 7px 7px #2196f3;
 }
 .fixed-container img{
-height: 260px;
-width: 50%;
+height: 280px;
+width: 100%;
 }
 .fixed-container p, h3{
 margin: 0;
 padding-left: 3%;
+
 }
+
 
 
 /* NEW FOOTER CSS */
@@ -227,3 +229,10 @@ padding: 10px;
 }
 
 /* COPY TILL HERE */
+
+
+/*.fixed-container img{
+  width: 200px;
+  height: 200px;
+
+}*/

@@ -187,8 +187,8 @@ border: 1px solid black;
 box-shadow: 7px 7px #2196f3;
 }
 .fixed-container img{
-height: 250px;
-width: 100px;
+height: 280px;
+width: 100%;
 }
 .fixed-container p, h3{
 margin: 0;

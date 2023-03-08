@@ -1,9 +1,44 @@
+a{
+  color:white;
+  text-decoration: none;
+}
+.logo {
+  max-width: 25%;
+}  
+
+
+
+.about {
+  background: #053a66;
+  flex-grow: 1;
+}
+
+.events{
+  background: #053a66;
+  flex-grow: 1;
+}
+.faq{
+  background: #053a66;
+  flex-grow: 1;
+}
+.contact{
+  background: #053a66;
+  flex-grow: 1;
+}
+
+
+
+.bottomnavbar{
+  display: flex;
+  justify-content: center;
+
+}
 
 
   body{
     background-color: #fcf6e7;
     font-family: Arial, Helvetica, sans-serif;
-
+  margin: auto;
   }
   a{
     color:white;
@@ -13,14 +48,13 @@
     display: flex;
     justify-content: center;
     
-    
   }
   
   .flex-container > div {
    
     margin: 10px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   * {
@@ -60,7 +94,7 @@
   /* Style the container/contact section */
   .containerContact {
     border-radius: 5px;
-    background-color: #fcf6e7;
+  
     padding: 10px;
   }
   
@@ -128,9 +162,38 @@
     text-align: left;
   }
 
+  /* footer 
+  footer div{
+    align-self:center;
+ }*/
+ 
+ /*footer{
+  display: flex;
+  color: white;
+  height:41px;
+  background-color:#053a66;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-top: 20px;
+  
+ }
+ .twitterlogo{
+  height:20px;
+  width:40px;
+  
+ }
+ .facebooklogo{
+  height:20px;
+  width:40px;
+  margin-right:20px;
+ }
+ 
+ 
+ .socialMediaImg{
+  margin-right: 200px;
+ }*/
 
-
-/* nav bar */
+ nav bar 
 
 
 h1 {
@@ -140,7 +203,7 @@ h1 {
 
 }
 
-.background_img {
+/*.background_img {
   height: 340px;
     margin: 0px;
     padding: 70px;
@@ -157,7 +220,7 @@ h1 {
   height: 144px;
   
 
-}
+}*/
 
 
 .h1 {text-align: center;
@@ -231,13 +294,11 @@ form{
   padding: 20px;
 }
 
-
-
-
+/* COPY FOOTER CSS FROM HERE! */
 /* NEW FOOTER CSS */
-.footer .container {
+/* .footer .container {
   padding: 60px;
-}
+} */
 
 h5 {
   padding-top: 20px ;
@@ -245,7 +306,7 @@ h5 {
 
 .homeFooter {
   margin-top: 20px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .contactFooter {
@@ -260,25 +321,19 @@ h5 {
 }
 
 .fa{
-  margin-top: 15px;
+margin-top: 15px;
 padding: 10px;
 }
+/* COPY FOOTER CSS UNTIL HERE! */
 
-
-
-
-
-
-/* menu */
-.jumbotron {
+/* New header*/
+.jumbotron{
   background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos');
-  background-size: cover;
+
+  background-size:contain;
+
+  margin-bottom: 0;
 }
-
-/* .nav{
-  display: flex;
-} */
-
 .container{
   padding: 5px;
 }
@@ -287,7 +342,22 @@ padding: 10px;
   flex-direction: row;
 }
 
-/* menu */
-.container_body{
-  background-color: #fcf6e7;
+footer{
+  background-color: #053a66;
+}
+
+
+
+.searchbar{
+  margin-left: 270px;
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+}
+
+#page-container {
+  position: relative;
+  min-height: 10vh;
 }

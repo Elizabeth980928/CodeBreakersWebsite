@@ -157,15 +157,49 @@ footer div{
 */
 
 /*new cc w bootstrap for header*/
-.jumbotron {
-  background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos');
-  background-size: cover;
+a{
+  color:white;
+  text-decoration: none;
+}
+.logo {
+  max-width: 25%;
+}  
+
+
+
+.about {
+  background: #053a66;
+  flex-grow: 1;
 }
 
-/* .nav{
-  display: flex;
-} */
+.events{
+  background: #053a66;
+  flex-grow: 1;
+}
+.faq{
+  background: #053a66;
+  flex-grow: 1;
+}
+.contact{
+  background: #053a66;
+  flex-grow: 1;
+}
 
+
+
+.bottomnavbar{
+  display: flex;
+  justify-content: center;
+
+}
+
+.jumbotron{
+  background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos');
+
+  background-size:contain;
+
+  margin-bottom: 0;
+}
 .container{
   padding: 5px;
 }

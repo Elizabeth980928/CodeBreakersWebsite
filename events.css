@@ -1,102 +1,13 @@
-/*Blue shade - #2196f3 */
-/*
-body{
+html, body {
   font-family: Arial, Helvetica, sans-serif;
+  height:100%;
+  /* background-color: #fcf6e7; */
   margin: 0;
-  background-color: #fcf6e7;
-  padding-bottom: 40px;
-}
-
-a{
-  color:white;
-  text-decoration: none;
-}
-
-body{
-  margin-top: 0;
-  margin-left:0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-h1 {
-  color: white ;
-  align-items: center;
-  margin-left: 40%;
-
-}
-
-.background_img {
-  height: 340px;
-    margin: 0px;
-    padding: 70px;
-    background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos') ; 
-    background-size: cover ;
-
-}
-
-.logo {
-  background: url("https://o.remove.bg/downloads/0206abbb-08be-4667-9bce-010f3a8aed05/download-removebg-preview.png");
-  padding: 0px;
-  margin: 0px;
-  width: 300px;
-  height: 144px;
-  
-
 }
 
 
-.h1 {text-align: center;
-
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  
-}
-.about {
-  background: #053a66;
-  flex-grow: 1;
-  
-}
-
-.events{
-  background: #053a66;
-  flex-grow: 1;
-  
- 
-}
-.faq{
-  background: #053a66;
-  flex-grow: 1;
-  
-  
-
-}
-.contact{
-  background: #053a66;
-  flex-grow: 1;
- 
-  
-
-}
-
-.container > div {
-  
-  font-size: medium;
-  color: white;
-  padding: 0%;
-  border-width: 5px;
-  
- 
-}
 
 
-.bottomnavbar{
-  display: flex;
-  justify-content: center;
-
-}
-*/
 .container:nth-of-type(0){
   color: white;
 }
@@ -106,55 +17,12 @@ h1{
   
 }
  #eventsh1 {text-align: center;}
-/*.flex-container ul {
-  
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  align-content: baseline;
-}
-*/
-/*
-.section {
-  background-color: rgb(255, 253, 246);
-   display: flex; 
-  /*justify-content: center;
-  padding: 40px;
-  width: 70%;
-  margin: 5rem auto 0 auto;
-  border: 1px solid black;
-  box-shadow: 7px 7px #2196f3;
-}
-.section img{
-height: 250px;
-}
-.section p, h3{
-margin: 0;
-padding-left: 3%;
-}
-*/
 
-/* .section #fund {
-  margin-right: 0px;
-  align-content: start;
-  width: 50px;
-} */
  ul li:nth-of-type(5){
   color: white;
 } 
 
-/*footer{ 
-  display: flex;
-  color: white;
-  height:39px;
-  background-color:#053a66;
-  justify-content: space-between;
-}
 
-footer div{
-  align-self: center;
-}
-*/
 
 /*new cc w bootstrap for header*/
 a{
@@ -207,6 +75,9 @@ a{
   display: flex;
   flex-direction: row;
 }
+
+.searchbar{
+  margin-left: 270px;}
 
 
 
@@ -270,3 +141,6 @@ padding: 10px;
   height: 200px;
 
 }*/
+
+
+

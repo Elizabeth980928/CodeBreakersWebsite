@@ -184,7 +184,7 @@ h1 {
   color: white ;
   
   align-items: center;
-  margin-left: 40%;
+  
 
 }
 
@@ -277,7 +277,10 @@ h1 {
 form{
   border: 1px black solid;
   padding: 20px;
+  
 }
+
+
 
 /* COPY FOOTER CSS FROM HERE! */
 /* NEW FOOTER CSS */
@@ -349,4 +352,5 @@ footer{
 
 .contactheader{
   text-align: center;
+
 }

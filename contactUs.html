@@ -57,7 +57,7 @@
 <br><br>
     <br>
 <!--Heading-->
-    <h1 class="contactheader display-4" style="color:black; padding-top: 0px;" id="FAQ"><strong>Contact Us</strong> </h1>
+    <h1 class="contactheader display-4" style="color:black; padding-top: 0px; justify-content: center;" id="FAQ"><strong>Contact Us</strong> </h1>
 
     <br>
     <!--Icons-->
@@ -126,7 +126,7 @@
     <div class="containerContact">
         <h3 style="text-align:left;">Map & Directions</h3>
         <div class="row">
-            <div class="column">
+            <div class="column" id="mapCol">
 
                 <div class="map">
                     <img src="images/MAP.jpg" style="width:60%">
@@ -134,7 +134,7 @@
 
             </div>
             <!--Form-->
-            <div class="column">
+            <div class="column" id="form">
                 <form action="active">
                     
                         <div style="text-align:center">
@@ -142,21 +142,17 @@
                             <h2 style="color:black">Leave us a message</h2>
                         </div>
 
-                        <label for="fname">Enter your First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                        <label for="lname">Enter your last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-                        <label for="email">Email</label>
-                        <input type="text" id="lname" name="email" placeholder="Your email..">
-                        <label for="subject">Message</label>
+                        <label for="fname">Enter your First Name:</label><br>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required style="width: 700px;"><br><br>
+                        <label for="lname">Enter your last Name:</label><br>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required style="width: 700px;"><br><br>
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="lname" name="email" placeholder="Your email.." style="width: 700px;"><br><br>
+                        <label for="subject">Message:</label><br>
                         <textarea id="subject" name="message" placeholder="Write something.."
-                            style="height:170px"></textarea>
+                            style="height:170px; width: 700px;"></textarea><br><br>
                         <input type="submit" value="Submit">
                     
-
-
-
-
                 </form>
             </div>
         </div>

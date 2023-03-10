@@ -328,10 +328,12 @@ padding: 10px;
 
 /* COPY TILL HERE */
 .jumbotron{
-  background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos');
+  /* background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos');
 
-  background-size:contain;
-
+  background-size:contain; */
+  background-image: url("/images/header\ new\ new.jpg");
+  background-size: cover;
+  opacity: 0.8;
   margin-bottom: 0;
 }
 

@@ -43,7 +43,7 @@ body {
 
 .jumbotron {
   background-image: url('https://www.vvob.org/sites/belgium/files/styles/780pxx330px/public/images/mainimagebig/_bec4693_0.jpg?itok=c5WmaEos');
-  background-size: cover;
+  background-size: contain;
 }
 
 /* .nav{

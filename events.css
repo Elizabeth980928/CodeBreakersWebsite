@@ -18,6 +18,7 @@ h1{
 }
  #eventsh1 {text-align: center;}
 #extracurricularh1 {text-align: center}
+#upcomingevents {text-align: center}
  ul li:nth-of-type(5){
   color: white;
 } 
@@ -105,7 +106,60 @@ padding-left: 3%;
 }
 /*fixed container ends here*/
 
+/*upcoming events css starts here*/
+.event-container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 888px;
+    margin: 0 auto;
+    
+}
 
+.event-container h3.year {
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.event-container .event {
+  box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  border-radius: 8px;
+  margin: 32px 0;
+
+}
+
+.event .event-left {
+
+  background:#053a66;
+  min-width: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  padding: 8px 48px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px 0 0 8px;
+}
+
+.event .event-left .date {
+  font-size: 56px;
+}
+
+.event .event-left .month {
+
+  font-size: 16px;
+  font-weight: normal;
+
+}
+
+.event .event-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px
+
+}
 /* NEW FOOTER CSS */
 .footer .container {
   padding: 60px;

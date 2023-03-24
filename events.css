@@ -17,7 +17,7 @@ h1{
   
 }
  #eventsh1 {text-align: center;}
-
+#extracurricularh1 {text-align: center}
  ul li:nth-of-type(5){
   color: white;
 } 
@@ -103,7 +103,7 @@ margin: 0;
 padding-left: 3%;
 
 }
-
+/*fixed container ends here*/
 
 
 /* NEW FOOTER CSS */

@@ -37,6 +37,28 @@
 
 <!--Header w/ bootstrap css below-->
 <body>
+
+
+  <!-- JAVASCRIPT CODE -->
+
+  <script>
+
+
+    // Scroll to Top feature
+    function topScroll(){
+      window.scrollTo({top:0, behavior: "smooth"});
+    }
+
+    // Change color hover effect on header
+    function changeTextColorOn(){
+      document.getElementsById("aboutTitle").style.color = "blue";
+      }
+    
+    function changeTextColorOff(){
+      document.getElementsById("aboutTitle").style.color = "black";
+    }
+    
+  </script>
 <header>
   
   <div class="jumbotron jumbotron-fluid text-white">
@@ -75,7 +97,7 @@
 <h1 class="display-4" id="eventsh1"><strong>Events</strong></h1>
 <br>
 <br>
-<h1 class="display-5" id="extracurricularh1"><strong>Extra Curricular Activities</strong></h1>
+<h1 class="display-5" id="extracurricularh1">Extra Curricular Activities</h1>
 
   <!--<div class="section">
 
@@ -238,10 +260,15 @@
     </div>
     </div>
      </div>
+
     
 
 <br>
 <br>
+
+<button onclick="topScroll()" id="scrollButton">Click to Scroll to Top</button>
+
+
 <!--<footer>
   <div>
       <h4>Code Breakers</h4>

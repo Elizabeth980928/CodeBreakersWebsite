@@ -32,6 +32,27 @@
         <!-- justify-content-center  flex-column flex-md-row   -->
     </div>
 
+    <!-- JAVASCRIPT CODE -->
+    
+    <script>
+
+
+      // Scroll to Top feature
+      function topScroll(){
+        window.scrollTo({top:0, behavior: "smooth"});
+      }
+  
+      // Change color hover effect on header
+      function changeTextColorOn(){
+        document.getElementsById("aboutTitle").style.color = "blue";
+        }
+      
+      function changeTextColorOff(){
+        document.getElementsById("aboutTitle").style.color = "black";
+      }
+      
+    </script>
+
     <nav class="container-fluid " style="background-color: #023a62;">
       <div class="row">
             <div class="col-sm-12 col-md-2 col-lg-1 "><a class="nav-link active"href="home.htm" style="color: white;">Home</a></div>
@@ -80,7 +101,11 @@
             </div>
         </div>
     </div>
+
+    <button onclick="topScroll()" id="scrollButton">Click to Scroll to Top</button>
 </body>
+
+
 
 
 <footer id ="page-container" class="page-footer font-medi pt-10 fixed-bottom">

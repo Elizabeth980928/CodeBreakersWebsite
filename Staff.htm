@@ -8,7 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Staff</title>
 
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -18,11 +17,12 @@
   <link rel='stylesheet' href='about2.css' />
   <link rel="stylesheet" href="footer.css">
 
-
-
   <link rel="stylesheet" href="Staff.css">
-  <!-- Social Media Icons -->
 
+  <!-- JAVASCRIPT file -->
+  <script src="staff.js"></script>
+
+  <!-- Social Media Icons -->
 </head>
 
 <body>
@@ -60,11 +60,29 @@
     </nav>
   </header>
   <br><br>
- 
-  
-  
 
-  <h1 class="aboutheader display-4"><strong>Staff</strong></h1>
+  <!-- JAVASCRIPT file -->
+  <script>
+
+
+    // Scroll to Top feature
+    function topScroll(){
+      window.scrollTo({top:0, behavior: "smooth"});
+    }
+    function changeTextColorOn(){
+      document.getElementsById("aboutTitle").style.color = "blue";
+      }
+    
+    function changeTextColorOff(){
+      document.getElementsById("aboutTitle").style.color = "black";
+    }
+
+  </script>
+  
+ 
+
+
+  <h1 class="aboutheader display-4" id="aboutTitle" onmouseover="changeTextColorOn()" onmouseout="changeTextColorOff"><strong>Staff</strong></h1>
 
   <div class="section">
 
@@ -195,6 +213,8 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
+    <button onclick="topScroll()" id="scrollButton">Click to Scroll to Top</button>
+
 </body>
 <br>
 <br>
@@ -244,3 +264,4 @@
 </footer>
 
 </html>
+

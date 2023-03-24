@@ -26,6 +26,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   
 <link rel='stylesheet' href='events.css'>
+
+
   <!-- Social Media Icons -->
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -35,6 +37,28 @@
 
 <!--Header w/ bootstrap css below-->
 <body>
+
+
+  <!-- JAVASCRIPT CODE -->
+
+  <script>
+
+
+    // Scroll to Top feature
+    function topScroll(){
+      window.scrollTo({top:0, behavior: "smooth"});
+    }
+
+    // Change color hover effect on header
+    function changeTextColorOn(){
+      document.getElementsById("aboutTitle").style.color = "blue";
+      }
+    
+    function changeTextColorOff(){
+      document.getElementsById("aboutTitle").style.color = "black";
+    }
+    
+  </script>
 <header>
   
   <div class="jumbotron jumbotron-fluid text-white">
@@ -71,6 +95,9 @@
 <div>
   <!--<h1><strong>Events</strong></h1>-->
 <h1 class="display-4" id="eventsh1"><strong>Events</strong></h1>
+<br>
+<br>
+<h1 class="display-5" id="extracurricularh1">Extra Curricular Activities</h1>
 
   <!--<div class="section">
 
@@ -115,6 +142,7 @@
     </a>
   </div>
   </div>
+
   
   <br>
   
@@ -131,17 +159,7 @@
 </div>
 
   
-  <!--<div class="section">
-    <img src="images/sport image.webp" width="390" height="250"</img>
-    <div class="text">
-  <h3><u>Sports</u></h3><br><br>
-      
-      <p><strong>Soccer Club :</strong> A society which gives students a fun way of developing their oracy skills. There is a range of activities to help with critical thinking and confident communication therefore, allowing students to also be informed about current affairs.</p><br>
-    
-      <p><strong>Netball Club :</strong>To help students with strength and agility. Our core values include RESPECT, TEAMWORK, DISCIPLINE, EXCELLENCE and FUN.</p><br>
-      <p>Lastly, we also have a <strong>First Aid Team</strong> to provide emergency care during matches and tornaments.</p><br>
-    </div>
-  </div> -->
+ 
 
   <div class="fixed-container">
     <div class="row">
@@ -242,10 +260,15 @@
     </div>
     </div>
      </div>
+
     
 
 <br>
 <br>
+
+<button onclick="topScroll()" id="scrollButton">Click to Scroll to Top</button>
+
+
 <!--<footer>
   <div>
       <h4>Code Breakers</h4>

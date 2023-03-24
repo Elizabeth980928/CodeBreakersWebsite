@@ -17,7 +17,7 @@ h1{
   
 }
  #eventsh1 {text-align: center;}
-
+#extracurricularh1 {text-align: center}
  ul li:nth-of-type(5){
   color: white;
 } 
@@ -103,7 +103,7 @@ margin: 0;
 padding-left: 3%;
 
 }
-
+/*fixed container ends here*/
 
 
 /* NEW FOOTER CSS */
@@ -148,4 +148,14 @@ padding: 10px;
 
 .searchbar{
   margin-left: 270px;
+}
+
+#scrollButton {
+  height: 35px;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 15px;
+  margin-left: 655px;
+  border: white;
+  margin-bottom: 20px;
 }

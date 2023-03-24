@@ -26,7 +26,7 @@
     <div class="container">
       <div class="schoolbackground row">
         <div class=" col logo">
-          <a href="home.htm"><img src="images/schoolLogo.png" alt="logo"></a> 
+          <a href="home.htm"><img src="images/School_badge-removebg-preview.png" alt="logo"></a> 
         </div>
         <div class="col">
           <h1 class="display-3" style="color: white;">Mzamomtsha Primary School</h1> 
@@ -51,6 +51,28 @@
 </nav>
 </header>
 <br><br><br>
+
+  <!-- JAVASCRIPT file -->
+  <script>
+
+
+    // Scroll to Top feature
+    function topScroll(){
+      window.scrollTo({top:0, behavior: "smooth"});
+    }
+
+    // Change color hover effect on header
+    function changeTextColorOn(){
+      document.getElementsById("aboutTitle").style.color = "blue";
+      }
+    
+    function changeTextColorOff(){
+      document.getElementsById("aboutTitle").style.color = "black";
+    }
+    
+  </script>
+
+
 
 
   <h1 class="aboutheader display-4"><strong>About</strong></h1>
@@ -109,6 +131,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+
+    <button onclick="topScroll()" id="scrollButton">Click to Scroll to Top</button>
 
 </body>
 <br>

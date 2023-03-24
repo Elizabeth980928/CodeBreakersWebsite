@@ -37,13 +37,35 @@
 
 <!--Header w/ bootstrap css below-->
 <body>
+
+
+  <!-- JAVASCRIPT CODE -->
+
+  <script>
+
+
+    // Scroll to Top feature
+    function topScroll(){
+      window.scrollTo({top:0, behavior: "smooth"});
+    }
+
+    // Change color hover effect on header
+    function changeTextColorOn(){
+      document.getElementsById("aboutTitle").style.color = "blue";
+      }
+    
+    function changeTextColorOff(){
+      document.getElementsById("aboutTitle").style.color = "black";
+    }
+    
+  </script>
 <header>
   
   <div class="jumbotron jumbotron-fluid text-white">
       <div class="container">
         <div class="schoolbackground row">
           <div class=" col logo">
-            <a href="home.htm"><img src="images/schoolLogo.png" alt="logo"></a> 
+            <a href="home.htm"><img src="images/School_badge-removebg-preview.png" alt="logo"></a> 
           </div>
           <div class="col">
             <h1 class="display-3" style="color: white;">Mzamomtsha Primary School</h1> 
@@ -238,10 +260,15 @@
     </div>
     </div>
      </div>
+
     
 
 <br>
 <br>
+
+<button onclick="topScroll()" id="scrollButton">Click to Scroll to Top</button>
+
+
 <!--<footer>
   <div>
       <h4>Code Breakers</h4>

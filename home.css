@@ -191,3 +191,13 @@ footer{
 .searchbar{
   margin-left: 270px;
 }
+
+#scrollButton {
+  height: 35px;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 15px;
+  margin-left: 655px;
+  border: white;
+  margin-bottom: 20px;
+}

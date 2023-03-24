@@ -125,6 +125,21 @@
 
     </div>
     <script>
+
+
+      function topScroll(){
+        window.scrollTo({top:0, behavior: "smooth"});
+      }
+
+      // Change color hover effect on header
+      function changeTextColorOn(){
+        document.getElementsById("aboutTitle").style.color = "blue";
+        }
+      
+      function changeTextColorOff(){
+        document.getElementsById("aboutTitle").style.color = "black";
+      }
+    
       var acc = document.getElementsByClassName("details_summary");
       var i;
 
@@ -139,14 +154,15 @@
           }
         });
       }
-
       
     </script>
 
+    
+
   </div>
+  <button onclick="topScroll()" id="scrollButton">Click to Scroll to Top</button>
 </body>
-<br>
-<br>
+
 <br>
 <br>
 

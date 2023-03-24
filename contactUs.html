@@ -173,6 +173,10 @@
     </div>
 
     <script>
+        // Scroll to Top feature
+        function topScroll(){
+        window.scrollTo({top:0, behavior: "smooth"});
+        }
         function myFunction() {
             alert("Your message was successfully submitted!");
         }
@@ -182,6 +186,10 @@
 
     </div>
     <br>
+
+    <button onclick="topScroll()" id="scrollButton">Click to Scroll to Top</button>
+
+
     <!-- footer -->
 
     <footer id="page-container" class="page-footer font-medi pt-10" style="padding: 10px; background-color: #053a66;">

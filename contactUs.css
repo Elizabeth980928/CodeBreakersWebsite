@@ -357,3 +357,20 @@ footer{
   text-align: center;
 
 }
+
+#submitbutton{
+  background-color: #2196F3;
+  border-radius: 15px;
+  border: white;
+  color: white;
+}
+
+#scrollButton {
+  height: 35px;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 15px;
+  margin-left: 655px;
+  margin-bottom: 10px;
+  border: white;
+}

@@ -179,8 +179,7 @@ html, body {
 
 
 
-
-h1 {
+ .display-3 {
   color: white ;
   
   align-items: center;
@@ -275,10 +274,10 @@ h1 {
 }
 
 form{
-  border: 1px black solid;
   padding: 20px;
   
 }
+
 
 
 
@@ -360,9 +359,12 @@ footer{
 
 #submitbutton{
   background-color: #2196F3;
-  border-radius: 15px;
+  border-radius: 5px;
+  height: 40px;
+  width: 50%;
   border: white;
   color: white;
+ margin-left: 150px;
 }
 
 #scrollButton {
@@ -373,4 +375,63 @@ footer{
   margin-left: 655px;
   margin-bottom: 10px;
   border: white;
+}
+
+/* new form css */
+body {
+  font-family: sans-serif;
+}
+.form-container {
+  width: 100%;
+  
+  border: 1px solid black;
+}
+.contactForm{
+  border: 10px solid white;
+
+
+}
+label {
+  display: block;
+  margin-top: 25px;
+  font-size: 1rem;
+}
+.display-3{
+  font-size: 30px;
+ 
+  
+}
+input, textarea {
+  width: 80%;
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+.btnform {
+  width: 82.5%;
+  height: 50px;
+  border-radius: 5px;
+  color: #fff;
+  background:#2196F3;
+  line-height: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px;
+  margin-top: 25px;
+}
+button:hover {
+  color: blue;
+}
+.errors {
+  display: block;
+  color: red;
+  margin-top: 5px;
+}
+.error {
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
+  box-shadow: 0 0 15px 0 rgba(255,36,0,1);
 }

@@ -75,10 +75,9 @@ body {
   border: white;
 }
 
-
 .tab {
   overflow: hidden;
-  border: 1px solid rgba(245, 229, 14, 0.89);
+  border: 0.1px solid rgba(245, 229, 14, 0.89);
   background-color: #1c5da7 ;
 
 }

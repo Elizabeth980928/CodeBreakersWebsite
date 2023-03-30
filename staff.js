@@ -3,19 +3,23 @@ function topScroll(){
   window.scrollTo({top:0, behavior: "smooth"});
 }
 
-function imageGrow() {
-  document.getElementsById("section1").style.width = "150px";
+
+//Image Zoom feature
+
+var target = image.currentTarget;
+
+
+function imageGrow(image) {
+  image.style.width = "420px";
+  image.style.width = "290px";
 }
-function imageShrink() {
-  document.getElementsById("section1").style.width = "100px";
+function imageShrink(image) {
+  image.style.width = "380px";
+  image.style.width = "250px";
 }
 
 
-
-
-
-// Navigation bar JS
-
+// Navigation bar Updates
 function openlink(evt, linkName) {
   // Declare all variables
   var i, tabcontent,  tablinks;

@@ -19,6 +19,7 @@ h1{
  #eventsh1 {text-align: center;}
 #extracurricularh1 {text-align: center}
 #upcomingevents {text-align: center}
+#oursponsorsh1 {text-align: center}
  ul li:nth-of-type(5){
   color: white;
 } 
@@ -106,6 +107,31 @@ padding-left: 3%;
 }
 /*fixed container ends here*/
 
+/*bootstrap css implementation*/
+.slideshow-container {background-color: white;
+  display: flex; 
+  /*justify-content: center;*/
+  padding: 40px;
+  width: 70%;
+  margin: 5rem auto 0 auto;
+  border: 1px solid black;
+  box-shadow: 7px 7px #2196f3;
+  }
+  .slideshow-container img{
+  height: 280px;
+  width: 100%;
+  }
+  .slideshow-container p, h3{
+  margin: 0;
+  padding-left: 3%;
+  
+  }
+  .mySlides {display: none;}
+
+  
+  /*fixed container ends here*/
+  
+
 /*upcoming events css starts here*/
 .event-container {
     font-family: Arial, Helvetica, sans-serif;
@@ -180,7 +206,7 @@ padding-left: 3%;
 }
 
 .event .event-right .event-timing img {
-  height: 20px; /*this is not working, have to adjust height in html rather*/
+ 
   width: 20px;
   padding-right: 8px;
 }
@@ -206,6 +232,20 @@ padding-left: 3%;
   padding: 10px 0;
    
 }
+
+/*images with javascript*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 2px;
+  justify-content: center;
+}
+
+/*java images ends here*/
+
 /* NEW FOOTER CSS */
 .footer .container {
   padding: 60px;

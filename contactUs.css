@@ -357,15 +357,17 @@ footer{
 
 }
 
-#submitbutton{
+#submitButton{
   background-color: #2196F3;
-  border-radius: 5px;
-  height: 40px;
-  width: 50%;
+  border-radius: 15px;
+  height: 35px;
+  width: 80px;
   border: white;
   color: white;
  margin-left: 150px;
 }
+
+
 
 #scrollButton {
   height: 35px;
@@ -434,4 +436,9 @@ button:hover {
   -o-transition: .2s;
   transition: .2s;
   box-shadow: 0 0 15px 0 rgba(255,36,0,1);
+}
+
+.formHeader{
+  text-align: center;
+
 }

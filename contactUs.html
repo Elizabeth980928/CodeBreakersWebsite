@@ -226,10 +226,20 @@
                         <input type="text" placeholder="Phone number" id="phone" name="phone">
                         <span class="errors"></span>
 
+                        <label for="country">Contry</label>
+                        <select name="country" id="country">
+                            <option value="South Africa">South Africa</option>
+                            <option value="united states">United States</option>
+                            <option value="canada">Canda</option>
+                            <option value="germany">Germany</option>
+                        </select>
+                        <span class="errors"></span>
+
 
                         <label for="subject"> Adddress</label>
                         <textarea placeholder="Your message" cols="132" rows="5" name="subject" id="subject"></textarea>
                         <span class="errors"></span>
+
 
                         <label for="country">Choose your country</label>
                         <input list="country" id="countries" name="country">
@@ -251,7 +261,7 @@
 
 
 
-                        <button class="btnform" type="submit" value="Submit">Submit</button>
+                        <button onclick="myFunction()" id="submitButton" >Submit</button>
                     </form>
                 </div>
             </div>
@@ -264,7 +274,11 @@
             window.scrollTo({ top: 0, behavior: "smooth" });
         }
         function myFunction() {
-            alert("Your message was successfully submitted!");
+            alert("Message was not submitted! Fill in all the required fields");
+            
+        }
+        function submitButton(){
+            alert("Thank you, your message sent successfully :)")
         }
     </script>
 

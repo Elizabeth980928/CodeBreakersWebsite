@@ -14,12 +14,12 @@ var validate = function(e) {
               removeSpan = fields[i].nextElementSibling;
               par = fields[i].parentNode;
               par.removeChild(removeSpan);
-              fields[i].nextElementSibling.innerHTML = "" + fields[i].placeholder + " is required?";
+              fields[i].nextElementSibling.innerHTML = "" + fields[i].placeholder + " is required";
               fields[i].style.boxShadow = "0 0 2px 1px #cc0001";
               check = false;
               errArr.push(fields[i]);
             }
-            fields[i].nextElementSibling.innerHTML = "" + fields[i].placeholder + " is required?";
+            fields[i].nextElementSibling.innerHTML = "" + fields[i].placeholder + " is required";
             fields[i].style.boxShadow = "0 0 2px 1px #cc0001";
             check = false;
             errArr.push(fields[i]);
@@ -86,7 +86,7 @@ var validate = function(e) {
     
     return check
 
-    // Helper functions.
+    // validation for email, phone number
     function isValidEmail(e) {
         regEx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
         var email = e.value;

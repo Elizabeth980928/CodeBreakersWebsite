@@ -1,3 +1,37 @@
+// nav bar js
+function openlink(evt, linkName) {
+  // Declare all variables
+  var i, tabcontent,  tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(linkName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+/* Toggle between adding and removing the "responsive" class to the navbar when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTab");
+  if (x.className === "tab") {
+    x.className += " responsive";
+  } else {
+    x.className = "tab";
+  }
+}
+
+
+// form validation
 var validate = function(e) {
     var fields = document.querySelectorAll('.form-container textarea, .form-container input[type="text"]');
     var regEx;
@@ -14,12 +48,12 @@ var validate = function(e) {
               removeSpan = fields[i].nextElementSibling;
               par = fields[i].parentNode;
               par.removeChild(removeSpan);
-              fields[i].nextElementSibling.innerHTML = "" + fields[i].placeholder + " is required?";
+              fields[i].nextElementSibling.innerHTML = "" + fields[i].placeholder + " is required";
               fields[i].style.boxShadow = "0 0 2px 1px #cc0001";
               check = false;
               errArr.push(fields[i]);
             }
-            fields[i].nextElementSibling.innerHTML = "" + fields[i].placeholder + " is required?";
+            fields[i].nextElementSibling.innerHTML = "" + fields[i].placeholder + " is required";
             fields[i].style.boxShadow = "0 0 2px 1px #cc0001";
             check = false;
             errArr.push(fields[i]);
@@ -73,17 +107,19 @@ var validate = function(e) {
     if(check === false) {
       var count = 0;
       var toErr = setInterval(function() {
-        var e = errArr[0].offsetTop + -25;
+       
         var pos = Math.abs(e);
         if(count < pos) {
-          count ++;
-          window.scrollTo(0, count);
+          
         } else {
           clearInterval(toErr);
+          alert("Please input all the required fields")
+
         }
       }, 1);
     }
-    
+   
+
     return check
 
     // Helper functions.
@@ -110,4 +146,6 @@ var validate = function(e) {
         return false;
       }
     }
-};
+}
+
+

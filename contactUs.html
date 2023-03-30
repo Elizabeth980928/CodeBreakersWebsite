@@ -16,36 +16,10 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="contactUs.css">
     <script src="/contact us.js">
-
+        validate();
     </script>
 
-    <!-- <script>
-        function validateForm()
-        {
-            let a = document.forms["myForm"]["firstname"].value;
-            if(a=="")
-            {
-                alert("First name must be filled out!");
-                return flase;
-            }
-
-            let b = document.forms["myForm"]["lastname"].value;
-            if(b=="")
-            {
-                alert("Last name must be filled out!");
-                return false;
-            }
-
-            let c = document.forms["myForm"]["email"].value;
-            if(c=="")
-            {
-                alert("Please enter the correct email address");
-                return false;
-
-            }
-
-        }
-    </script> -->
+>
 
 
 </head>
@@ -68,7 +42,23 @@
             <!-- justify-content-center  flex-column flex-md-row   -->
         </div>
 
-        <nav class="container-fluid " style="background-color: #023a62;">
+        <!-- The navigation menu -->
+  <div class="tab">
+
+    <a href="home.htm"><button class="tablinks" onclick="openLink(event, 'homeLink')"   style="color: white;">Home</button></a>
+    <a href="about2.html"><button class="tablinks" onclick="openlink(event, 'about.html')" style="color: white;" >About</button></a>
+    <a href="Staff.htm"><button class="tablinks" onclick="openlink(event, 'staff.hmtl')" style="color: white;" >Staff</button></a>
+    <a href="events.html"><button class="tablinks" onclick="openlink(event, 'events.html')" style="color: white;" >Events</button></a>
+    <a href="faq.html"><button class="tablinks" onclick="openlink(faq, 'faq.html')" style="color: white">FAQ</button></a>
+    <a href="contactUs.html"><button class="tablinks" onclick="openlink(contact, 'contact.html')" style="color: white;" >Contact</button></a>
+    
+    
+  </div>
+
+
+
+
+        <!-- <nav class="container-fluid " style="background-color: #023a62;">
             <div class="row">
                 <div class="col-sm-12 col-md-2 col-lg-1 "><a class="nav-link active" href="home.htm"
                         style="color: white;">Home</a></div>
@@ -87,7 +77,7 @@
                         class='searchbar' type="text" placeholder="Search.."></div>
 
             </div>
-        </nav>
+        </nav> -->
     </header>
 
 
@@ -211,7 +201,7 @@
 
                 <div class="form-container">
                     <h1 class="formHeader">Send us a message!</h1>
-                    <form name="contactForm" method="post" onsubmit="return validate()" action="#">
+                    <form name="contactForm" method="#" onsubmit="return validate()" action="#">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" placeholder="Your name">
                         <span class="errors"></span>
@@ -226,14 +216,15 @@
                         <input type="text" placeholder="Phone number" id="phone" name="phone">
                         <span class="errors"></span>
 
-                        <label for="country">Contry</label>
+
+                        <!-- <label for="country">Contry</label>
                         <select name="country" id="country">
                             <option value="South Africa">South Africa</option>
                             <option value="united states">United States</option>
                             <option value="canada">Canda</option>
                             <option value="germany">Germany</option>
                         </select>
-                        <span class="errors"></span>
+                        <span class="errors"></span> -->
 
 
                         <label for="subject"> Adddress</label>
@@ -245,23 +236,29 @@
                         <input list="country" id="countries" name="country">
                         <datalist id="country">
                             <option value="South africa">
-                            <option value=" new york">
-                            <option value="South africa">
-                            <option value="South africa">
-                            <option value="South africa">
-                            <option value="South africa">
-                            <option value="South africa">
-                            <option value="South africa">
-                            <option value="South africa">
-                            <option value="South africa">
+                            <option value="United States">
+                            <option value="Germany">
+                            <option value="Canada">
+                            <option value="Jamaica">
+                            <option value="France">
+                            <option value="Zimbabwe">
+                            <option value="Botswana">
+                            
+                            
 
                         </datalist>
                         <span class="errors"></span>
 
 
 
-
-                        <button onclick="myFunction()" id="submitButton" >Submit</button>
+                        <!-- <script>function myFunction(){
+                            alert("I am an alert box1!");
+                            alert("I am an alert box2!");
+                            alert("I am an alert box3!");}</script></head><> -->
+                                
+                                <!-- <input type="button" onclick="myFunction()" value="Show alert box" /> -->
+    <button type="submit" onclick="validate()" id="submitButton" formaction="submitcontact.html">Submit</button>
+                       
                     </form>
                 </div>
             </div>
@@ -273,13 +270,44 @@
         function topScroll() {
             window.scrollTo({ top: 0, behavior: "smooth" });
         }
-        function myFunction() {
-            alert("Message was not submitted! Fill in all the required fields");
-            
+        function myFunction(){
+            if(form.validate()=== false)
+
+            alert("goooood");
         }
-        function submitButton(){
-            alert("Thank you, your message sent successfully :)")
+
+        // Change color hover effect on header
+      function changeTextColorOn(){
+        document.getElementsById("aboutTitle").style.color = "blue";
         }
+      
+      function changeTextColorOff(){
+        document.getElementsById("aboutTitle").style.color = "black";
+      }
+    
+      var acc = document.getElementsByClassName("details_summary");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var faqContainer = this.nextElementSibling;
+          if (faqContainer.style.maxheight) {
+            faqContainer.style.maxheight = null;
+          } else {
+            faqContainer.style.maxheight = faqContainer.scrollheight + "px";
+          }
+        });
+      }
+
+
+
+        // function validate() { 
+        //     var email = document.getElementById("email"); 
+        //     if (email == null || email == "") 
+        //     { alert("email must be filled out"); 
+        //     return false; } 
+        // }
     </script>
 
     </div>

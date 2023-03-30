@@ -12,9 +12,6 @@ a{
 .flex-container {
     display: flex;
    flex-direction: row;
-    
-     
-    
   }
 
 
@@ -29,20 +26,12 @@ a{
     font-size: 30px;
     width:300px;
     height:100px;
-   
-
     border: 1px solid;
     box-shadow: 5px 7px #2196F3;
-  
-    
-
  }
-
 
 /* main page */
 
-
- 
  .background_img {
    height: 340px;
      margin: 0px;

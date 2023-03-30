@@ -4,18 +4,20 @@ function topScroll(){
 }
 
 
-//Image Zoom feature
+//Section Zoom feature
 
-var target = image.currentTarget;
+const sections = document.querySelectorAll("section")
 
 
-function imageGrow(image) {
-  image.style.width = "420px";
-  image.style.width = "290px";
+function sectionGrow(x) {
+  const sectionBox = x.target;
+  x.style.width = "420px";
+  x.style.width = "290px";
 }
-function imageShrink(image) {
-  image.style.width = "380px";
-  image.style.width = "250px";
+function sectionShrink(x) {
+  const sectionBox = x.target;
+  x.style.width = "380px";
+  x.style.width = "250px";
 }
 
 

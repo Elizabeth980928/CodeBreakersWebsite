@@ -1,5 +1,5 @@
-function changeTextColor(){
-  document.getElementsById("aboutTitle").style.color = "blue";
+// Scroll to Top feature
+function topScroll(){
+  window.scrollTo({top:0, behavior: "smooth"});
+}
 
-  document.getElementById("aboutTitle").innerHTML = "Staff"
-  }

@@ -73,20 +73,22 @@ var validate = function(e) {
     if(check === false) {
       var count = 0;
       var toErr = setInterval(function() {
-        var e = errArr[0].offsetTop + -25;
+       
         var pos = Math.abs(e);
         if(count < pos) {
-          count ++;
-          window.scrollTo(0, count);
+          
         } else {
           clearInterval(toErr);
+          alert("Please input all the required fields")
+
         }
       }, 1);
     }
-    
+   
+
     return check
 
-    // validation for email, phone number
+    // Helper functions.
     function isValidEmail(e) {
         regEx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
         var email = e.value;
@@ -110,4 +112,6 @@ var validate = function(e) {
         return false;
       }
     }
-};
+}
+
+

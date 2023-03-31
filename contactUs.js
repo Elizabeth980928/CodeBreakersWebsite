@@ -88,19 +88,19 @@ var validate = function(e) {
               }
             }
 
-            if (fields[i].id === 'subject') {
-              val = isValidSubject(fields[i]);
-              if(val === false) {
-                  fields[i].nextElementSibling.innerHTML = " Please enter a valid address";
-                  fields[i].style.boxShadow = "0 0 2px 1px #cc0001";
-                  check = false;
-                  errArr.push(fields[i]);
-              } else {
-                  fields[i].nextElementSibling.innerHTML = "";
-                  fields[i].style.boxShadow = "none";
-                  check = true;
-              }
-          } 
+          //   if (fields[i].id === 'subject') {
+          //     val = isValidSubject(fields[i]);
+          //     if(val === false) {
+          //         fields[i].nextElementSibling.innerHTML = " Please enter a valid address";
+          //         fields[i].style.boxShadow = "0 0 2px 1px #cc0001";
+          //         check = false;
+          //         errArr.push(fields[i]);
+          //     } else {
+          //         fields[i].nextElementSibling.innerHTML = "";
+          //         fields[i].style.boxShadow = "none";
+          //         check = true;
+          //     }
+          // } 
 
             if (fields[i].id === 'email') {
                 val = isValidEmail(fields[i]);
@@ -161,13 +161,13 @@ var validate = function(e) {
       }
     }
 
-    function isValidSubject(e) {
-      regEx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-      var email = e.value;
-      if (!regEx.test(subject)) {
-          return false;
-      }
-  }
+  //   function isValidSubject(e) {
+  //     regEx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  //     var email = e.value;
+  //     if (!regEx.test(subject)) {
+  //         return false;
+  //     }
+  // }
 }
 
 

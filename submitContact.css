@@ -1,6 +1,7 @@
 
 body{
     background-color: rgb(240, 240, 240);
+    
 }
 .containerSubmit{
     height: 500px;
@@ -24,5 +25,7 @@ button{
     
     border: white;
     color: white;
+    margin-left: 280px;
+
   
 }

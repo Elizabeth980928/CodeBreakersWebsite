@@ -19,7 +19,7 @@
         // validate();
     </script>
 
->
+    >
 
 
 </head>
@@ -43,17 +43,23 @@
         </div>
 
         <!-- The navigation menu -->
-  <div class="tab">
+        <div class="tab">
 
-    <a href="home.htm"><button class="tablinks" onclick="openLink(event, 'homeLink')"   style="color: white;">Home</button></a>
-    <a href="about2.html"><button class="tablinks" onclick="openlink(event, 'about.html')" style="color: white;" >About</button></a>
-    <a href="Staff.htm"><button class="tablinks" onclick="openlink(event, 'staff.hmtl')" style="color: white;" >Staff</button></a>
-    <a href="events.html"><button class="tablinks" onclick="openlink(event, 'events.html')" style="color: white;" >Events</button></a>
-    <a href="faq.html"><button class="tablinks" onclick="openlink(faq, 'faq.html')" style="color: white">FAQ</button></a>
-    <a href="contactUs.html"><button class="tablinks" onclick="openlink(contact, 'contact.html')" style="color: white;" >Contact</button></a>
-    
-    
-  </div>
+            <a href="home.htm"><button class="tablinks" onclick="openLink(event, 'homeLink')"
+                    style="color: white;">Home</button></a>
+            <a href="about2.html"><button class="tablinks" onclick="openlink(event, 'about.html')"
+                    style="color: white;">About</button></a>
+            <a href="Staff.htm"><button class="tablinks" onclick="openlink(event, 'staff.hmtl')"
+                    style="color: white;">Staff</button></a>
+            <a href="events.html"><button class="tablinks" onclick="openlink(event, 'events.html')"
+                    style="color: white;">Events</button></a>
+            <a href="faq.html"><button class="tablinks" onclick="openlink(faq, 'faq.html')"
+                    style="color: white">FAQ</button></a>
+            <a href="contactUs.html"><button class="tablinks" onclick="openlink(contact, 'contact.html')"
+                    style="color: white;">Contact</button></a>
+
+
+        </div>
 
 
 
@@ -122,7 +128,7 @@
                     <img class="contactlogos" src="/images/social-media.png" alt="">
                     <div class="caption">
                         <div style="font-size: medium; color: black;">
-                            <p>@mzamomtsha.Prim</p>
+                            <p>@mzamomtsha_primary</p>
                         </div>
                     </div>
 
@@ -243,8 +249,8 @@
                             <option value="France">
                             <option value="Zimbabwe">
                             <option value="Botswana">
-                            
-                            
+
+
 
                         </datalist>
                         <span class="errors"></span>
@@ -255,10 +261,11 @@
                             alert("I am an alert box1!");
                             alert("I am an alert box2!");
                             alert("I am an alert box3!");}</script></head><> -->
-                                
-                                <!-- <input type="button" onclick="myFunction()" value="Show alert box" /> -->
-    <button type="submit" onclick="validate()" id="submitButton" formaction="submitcontact.html">Submit</button>
-                       
+
+                        <!-- <input type="button" onclick="myFunction()" value="Show alert box" /> -->
+                        <button type="submit" onclick="validate()" id="submitButton"
+                            formaction="submitcontact.html">Submit</button>
+
                     </form>
                 </div>
             </div>
@@ -270,43 +277,43 @@
         function topScroll() {
             window.scrollTo({ top: 0, behavior: "smooth" });
         }
-        function myFunction(){
-            if(form.validate()=== false)
+        function myFunction() {
+            if (form.validate() === false)
 
-            alert("goooood");
+                alert("goooood");
         }
 
         // Change color hover effect on header
-      function changeTextColorOn(){
-        document.getElementsById("aboutTitle").style.color = "blue";
+        function changeTextColorOn() {
+            document.getElementsById("aboutTitle").style.color = "blue";
         }
-      
-      function changeTextColorOff(){
-        document.getElementsById("aboutTitle").style.color = "black";
-      }
-    
-      var acc = document.getElementsByClassName("details_summary");
-      var i;
 
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var faqContainer = this.nextElementSibling;
-          if (faqContainer.style.maxheight) {
-            faqContainer.style.maxheight = null;
-          } else {
-            faqContainer.style.maxheight = faqContainer.scrollheight + "px";
-          }
-        });
-      }
+        function changeTextColorOff() {
+            document.getElementsById("aboutTitle").style.color = "black";
+        }
+
+        var acc = document.getElementsByClassName("details_summary");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var faqContainer = this.nextElementSibling;
+                if (faqContainer.style.maxheight) {
+                    faqContainer.style.maxheight = null;
+                } else {
+                    faqContainer.style.maxheight = faqContainer.scrollheight + "px";
+                }
+            });
+        }
 
 
 
         // function validate() { 
-        //     var email = document.getElementById("email"); 
-        //     if (email == null || email == "") 
-        //     { alert("email must be filled out"); 
-        //     return false; } 
+        //     var email = document.getElementById("email");
+        //     if (email == null || email == "")
+        //     { alert("email must be filled out");
+        //     return false; }
         // }
     </script>
 

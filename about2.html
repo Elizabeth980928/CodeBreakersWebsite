@@ -36,19 +36,20 @@
 
     <!-- justify-content-center  flex-column flex-md-row   -->
 </div>
-<nav class="container-fluid " style="background-color: #023a62;">
-  <div class="row">
-        <div class="col-sm-12 col-md-2 col-lg-1 "><a class="nav-link active"href="home.htm" style="color: white;">Home</a></div>
-        <div class="col-sm-12 col-md-2 col-lg-1"><a class="nav-link active"href="about2.html" style="color: white;">About</a></div>
-        <div class="col-sm-12 col-md-2 col-lg-1"><a class="nav-link active"href="Staff.htm" style="color: white;" >Staff</a></div>
-        <div class="col-sm-12 col-md-2 col-lg-1"><a class="nav-link active"href="events.html" style="color: white;" >Events</a></div>
-        <div class="col-sm-12 col-md-2 col-lg-1"><a class="nav-link active"href="faq.html" style="color: white;" >FAQ</a></div>
-        <div class="col-sm-12 col-md-2 col-lg-1"><a class="nav-link active"href="contactUs.html" style="color: white;" >Contact</a></div>
-        
-        <div class="searchbar col-sm-12  col-md-2 col-lg-1 searchbar align-self-center"><input class='searchbar'type="text" placeholder="Search.."></div>
 
-  </div>
-</nav>
+<div class="tab">
+
+  <a href="home.htm"><button class="tablinks" onclick="openLink(event, 'homeLink')"   style="color: white;">Home</button></a>
+  <a href="about2.html"><button class="tablinks" onclick="openlink(event, 'about.html')" style="color: white;" >About</button></a>
+  <a href="Staff.htm"><button class="tablinks" onclick="openlink(event, 'staff.hmtl')" style="color: white;" >Staff</button></a>
+  <a href="events.html"><button class="tablinks" onclick="openlink(event, 'events.html')" style="color: white;" >Events</button></a>
+  <a href="faq.html"><button class="tablinks" onclick="openlink(faq, 'faq.html')" style="color: white">FAQ</button></a>
+  <a href="contactUs.html"><button class="tablinks" onclick="openlink(contact, 'contact.html')" style="color: white;" >Contact</button></a>
+  
+  
+</div>
+
+
 </header>
 <br><br><br>
 
@@ -60,15 +61,29 @@
     function topScroll(){
       window.scrollTo({top:0, behavior: "smooth"});
     }
-
-    // Change color hover effect on header
-    function changeTextColorOn(){
-      document.getElementsById("aboutTitle").style.color = "blue";
+  // Change color hover effect on header
+  function changeTextColorOn(){
+        document.getElementsById("aboutTitle").style.color = "blue";
+        }
+      
+      function changeTextColorOff(){
+        document.getElementsById("aboutTitle").style.color = "black";
       }
     
-    function changeTextColorOff(){
-      document.getElementsById("aboutTitle").style.color = "black";
-    }
+      var acc = document.getElementsByClassName("details_summary");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var faqContainer = this.nextElementSibling;
+          if (faqContainer.style.maxheight) {
+            faqContainer.style.maxheight = null;
+          } else {
+            faqContainer.style.maxheight = faqContainer.scrollheight + "px";
+          }
+        });
+      }
     
   </script>
 

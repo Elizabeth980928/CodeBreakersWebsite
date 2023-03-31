@@ -4,21 +4,39 @@ function topScroll(){
 }
 
 
+
+
+
 //Section Zoom feature
+const sections = document.getElementsByClassName("section");
 
-const sections = document.querySelectorAll("section")
-
+const growScale = 0.8;
 
 function sectionGrow(x) {
   const sectionBox = x.target;
-  x.style.width = "420px";
-  x.style.width = "290px";
+  sectionBox.style.transition = "transform 0.3s ease";
+  sectionBox.style.transform = "scale(${growScale})";
 }
 function sectionShrink(x) {
   const sectionBox = x.target;
-  x.style.width = "380px";
-  x.style.width = "250px";
+  sectionBox.style.transition = "transform 0.3s ease";
+  sectionBox.style.transform = "scale(1)";
 }
+
+sections.forEach(sectionBox => {
+  sectionBox.addEventListener("mouseover", sectionGrow);
+  sectionBox.addEventListener("mouseout", sectionShrink);
+})
+
+
+
+
+
+
+
+
+
+
 
 
 // Navigation bar Updates

@@ -17,6 +17,10 @@ h1{
   color: white;
   
 }
+h2{
+  color: black;
+}
+
  #eventsh1 {text-align: center;}
 #extracurricularh1 {text-align: center}
 #upcomingevents {text-align: center}
@@ -88,6 +92,10 @@ h1{
   }
 
 .logo {max-width: 25%;}
+
+#iconss {
+  color: white;
+}
 
 /* CSS for header ends here */
 
@@ -310,10 +318,11 @@ padding-left: 3%;
 /*images with javascript*/
 .row {
   display: flex;
+  justify-content: center;
 }
 
 .column {
-  flex: 33.33%;
+  flex: 50%;
   padding: 2px;
   justify-content: center;
 }

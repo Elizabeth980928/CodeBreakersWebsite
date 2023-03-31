@@ -8,9 +8,11 @@ function topScroll(){
 
 
 //Section Zoom feature
-const sections = document.getElementsByClassName("section");
+const sections = document.querySelectorAll("card");
 
 const growScale = 0.8;
+
+console.log(sections);
 
 function sectionGrow(x) {
   const sectionBox = x.target;
@@ -24,8 +26,14 @@ function sectionShrink(x) {
 }
 
 sections.forEach(sectionBox => {
-  sectionBox.addEventListener("mouseover", sectionGrow);
-  sectionBox.addEventListener("mouseout", sectionShrink);
+  addEventListener("click", function() {
+    
+  })
+})
+
+const pImg = document.getElementById("principal");
+pImg.addEventListener("click", function() {
+  pImg.classList.toggle("img-rounded-border");
 })
 
 

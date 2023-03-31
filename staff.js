@@ -25,11 +25,11 @@ function sectionShrink(x) {
   sectionBox.style.transform = "scale(1)";
 }
 
-sections.forEach(sectionBox => {
-  addEventListener("click", function() {
+// sections.forEach(sectionBox => {
+//   addEventListener("click", function() {
     
-  })
-})
+//   })
+// })
 
 const pImg = document.getElementById("principal");
 pImg.addEventListener("click", function() {

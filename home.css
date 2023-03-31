@@ -253,3 +253,9 @@ footer{
     display: block;
     text-align: bottom;
   }
+
+
+  .img-rounded-border {
+    border:10px solid red;
+    border-radius:10px;
+  }

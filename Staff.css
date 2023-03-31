@@ -128,3 +128,8 @@ body {
   }
 
 .logo {max-width: 25%;}
+
+.img-rounded-border {
+  border:8px solid rgb(202, 190, 17);
+  border-radius:8px;
+}

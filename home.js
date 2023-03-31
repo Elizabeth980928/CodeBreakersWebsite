@@ -28,3 +28,25 @@ function openlink(evt, linkName) {
       x.className = "tab";
     }
   }
+
+ const bookImg = document.getElementById("book");
+ console.log(bookImg);
+ bookImg.addEventListener("click", function() {
+    bookImg.classList.toggle("img-rounded-border");
+  })
+
+
+  const sportImg = document.getElementById("sports");
+  console.log(bookImg);
+  sportImg.addEventListener("click", function() {
+     sportImg.classList.toggle("img-rounded-border");
+   })
+
+
+
+
+   const artImg = document.getElementById("arts");
+   console.log(bookImg);
+   artImg.addEventListener("click", function() {
+      artImg.classList.toggle("img-rounded-border");
+    })

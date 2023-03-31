@@ -19,7 +19,7 @@ function openlink(evt, linkName) {
   evt.currentTarget.className += " active";
 }
 
-/* Toggle between adding and removing the "responsive" class to the navbar when the user clicks on the icon */
+/* Toggle between adding and removing the "responsive" reduces the size of the nav according to the screen size */
 function myFunction() {
   var x = document.getElementById("myTab");
   if (x.className === "tab") {

@@ -8,7 +8,7 @@ function topScroll(){
 
 
 //Section Zoom feature
-const sections = document.querySelectorAll("card");
+const sections = document.getElementsByClassName("card");
 
 const growScale = 0.8;
 
@@ -25,20 +25,19 @@ function sectionShrink(x) {
   sectionBox.style.transform = "scale(1)";
 }
 
-// sections.forEach(sectionBox => {
-//   addEventListener("click", function() {
-    
-//   })
-// })
-
+for(let card of sections){
+  card.addEventListener("mouseover",sectionGrow);
+  card.addEventListener("mouseout",sectionShrink);
+}
 const pImg = document.getElementById("principal");
 pImg.addEventListener("click", function() {
   pImg.classList.toggle("img-rounded-border");
 })
 
 
-
-
+const pimg = document.querySelector("img");
+console.log(pimg);
+pimg.addEventListener("mouseover",sectionGrow);
 
 
 

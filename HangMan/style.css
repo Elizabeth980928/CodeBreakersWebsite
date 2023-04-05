@@ -151,6 +151,20 @@
     text-align: center;
     transition: opacity 2s;
     color: #fff;
-    
+      }
 
+     #button1{
+      height: 200px;
+      width: 200px;
+     }
+
+     .btnGame{
+      color: white;
+      background-color: #e9791e;
+      border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 110px;
   }
+
+     

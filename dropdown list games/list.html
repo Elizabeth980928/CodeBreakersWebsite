@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel='stylesheet' href='list.css'>
+
+    <div class="tab">
+
+        <a href="home.htm"><button class="tablinks" onclick="openLink(event, 'homeLink')"   style="color: white;">Home</button></a>
+        <a href="about2.html"><button class="tablinks" onclick="openlink(event, 'about.html')" style="color: white;" >About</button></a>
+        <a href="Staff.htm"><button class="tablinks" onclick="openlink(event, 'staff.hmtl')" style="color: white;" >Staff</button></a>
+        <a href="events.html"><button class="tablinks" onclick="openlink(event, 'events.html')" style="color: white;" >Events</button></a>
+        <a href="faq.html"><button class="tablinks" onclick="openlink(faq, 'faq.html')" style="color: white">FAQ</button></a>
+        <a href="contactUs.html"><button class="tablinks" onclick="openlink(contact, 'contact.html')" style="color: white;" >Contact</button></a>
+        <button> <a href="#" style="color: white;" >Games ▾</a>
+            <ul class="dropdown">
+             <li><a href="#">Break Out</a></li>
+             <li><a href="#">Hang Man</a></li>
+             <li><a href="#">Maze Game</a></li>
+             </button>
+      </div>
+</head>
+<body>
+    <script>
+    
+        // Change color hover effect on header
+        function changeTextColorOn() {
+          document.getElementsById("aboutTitle").style.color = "blue";
+        }
+    
+        function changeTextColorOff() {
+          document.getElementsById("aboutTitle").style.color = "black";
+        }
+    </script>
+    <script src="list.js"></script>
+</body>
+</html>

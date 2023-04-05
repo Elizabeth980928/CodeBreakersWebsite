@@ -14,7 +14,7 @@
     max-width: 34em;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 40%;
     left: 50%;
     padding: 3em;
     border-radius: 0.6em;
@@ -129,28 +129,36 @@
     margin-top: 18px;
     height: 35px;
     width: 150px;
+    left: 0;
+    top:0;
+    bottom:0;
+    right:0;
   }
 
   #btnEdit{
-    background-color:#e9791e;
-    border: none;
+    background-color:#ffffff;
+    border: 3px solid #e9791e;
     border-radius: 105px;
-    height: 30px;
-    width: 110px;
+    height: 65px;
+    width: 175px;
+    bottom: 10px;
   }
 
 
   .containerInstructions{
     text-align: end;
     padding: 60px;
+    height: 10em;
+    position: relative;
   }
 
   #gameInstructions{
-    grid-row: 3;
-    grid-column: 2;
-    text-align: center;
+    text-align: end;
     transition: opacity 2s;
     color: #fff;
-    
-
+    margin: 0px;
+    position: absolute;
+    top: 30%;
+    transform: translate(0, -50);
+    left: 8%;
   }

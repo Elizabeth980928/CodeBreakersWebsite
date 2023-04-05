@@ -131,6 +131,13 @@
     width: 150px;
   }
 
+  #btnEdit{
+    background-color:#e9791e;
+    border: none;
+    border-radius: 105px;
+    height: 30px;
+    width: 110px;
+  }
 
 
   .containerInstructions{

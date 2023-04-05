@@ -142,12 +142,15 @@
 
   .containerInstructions{
     text-align: end;
-
+    padding: 60px;
   }
 
+  #gameInstructions{
+    grid-row: 3;
+    grid-column: 2;
+    text-align: center;
+    transition: opacity 2s;
+    color: #fff;
+    
 
-  #instructions{
-    text-align: start;
   }
-
-  

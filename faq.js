@@ -1,3 +1,4 @@
+
 function openlink(evt, linkName) {
   // Declare all variables
   var i, tabcontent,  tablinks;
@@ -17,14 +18,4 @@ function openlink(evt, linkName) {
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(linkName).style.display = "block";
   evt.currentTarget.className += " active";
-}
-
-/* Toggle between adding and removing the "responsive" reduces the size of the nav according to the screen size */
-function myFunction() {
-  var x = document.getElementById("myTab");
-  if (x.className === "tab") {
-    x.className += " responsive";
-  } else {
-    x.className = "tab";
-  }
 }

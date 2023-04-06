@@ -28,11 +28,6 @@
   }
 
   
-  
-  
-
- 
-  
   .bottomnavbar{
     display: flex;
     justify-content: center;
@@ -236,6 +231,26 @@ footer{
   border: 1px solid #ccc;
   border-top: none;
 }
+
+/* Game Button on Navigation Bar */
+#gameBtn {
+  position: absolute;
+  /* background-color: inherit; */
+  float: left;
+  border: none;
+  outline: none; 
+  cursor: pointer;
+  padding: 14px 16px;
+  width: 10%;
+  margin: auto;
+  transition: 0.3s;
+  font-size: 110%;
+}
+
+#gameBtn :hover {
+  font-size: 122%;
+}
+/* Game Button End */
 
 
 

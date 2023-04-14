@@ -199,10 +199,20 @@ footer{
 
 .tab {
   overflow: hidden;
+
   border: 1px solid rgba(245, 229, 14, 0.89);
   background-color: #1c5da7 ;
 
 }
+
+@media screen and (max-width: 60px) {
+  header{
+ 
+ 
+    display: block;
+  }
+}
+
 
 .tab button {
   background-color: inherit;

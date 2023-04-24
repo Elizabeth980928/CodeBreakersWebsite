@@ -146,3 +146,13 @@ padding: 10px;
 
 /* COPY TILL HERE */
 
+.fixed-container {background-color: white;
+  display: flex; 
+  /*justify-content: center;*/
+  padding: 40px;
+  width: 70%;
+  margin: 5rem auto 0 auto;
+  border: 1px solid black;
+  box-shadow: 7px 7px #2196f3;
+  }
+  /*fixed container ends here*/

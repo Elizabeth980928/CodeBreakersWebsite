@@ -40,12 +40,6 @@ console.log(pimg);
 pimg.addEventListener("mouseover",sectionGrow);
 
 
-
-
-
-
-
-
 // Navigation bar Updates
 function openlink(evt, linkName) {
   // Declare all variables
@@ -78,3 +72,30 @@ function myFunction() {
   }
 }
 
+function searchStaff() {
+
+  //connect the search box to input variable
+  let input = document.getElementById("staffSearch").value;
+
+  //convert input to lowercase for readability
+  input = input.toLowerCase();
+  //create x variable for search to iterate over in each staff card
+  let x = document.getElementsByClassName("card");
+
+  //Regular expression check for input
+  pattern = /^[a-zA-Z@#$%!?^&*()_+\-=\[\]{};':"\\|,.\/? ]*$/gim;
+
+  //iterate over staff card contents as user types in string
+  for (i = 0; i < x.length; i++) { 
+    if (!x[i].innerHTML.toLowerCase().includes(input)) {
+        //if string does not match display no cards
+        x[i].style.display="none";
+    }
+    else {
+
+        //otherwise if string matches display result
+        x[i].style.display="list-item";                 
+    }
+
+  }
+}

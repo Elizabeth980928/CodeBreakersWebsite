@@ -151,3 +151,10 @@ body {
   border:8px solid rgb(202, 190, 17);
   border-radius:8px;
 }
+
+#staffSearch {
+  padding: 7px;
+  margin-left: 25px;
+  justify-content: center;
+  align-items: center;
+}

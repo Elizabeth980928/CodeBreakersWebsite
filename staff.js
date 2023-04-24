@@ -93,6 +93,10 @@ function searchStaff() {
     }
     else {
 
+      // if (pattern.test(input))input = input.replace(pattern, "\\$&");
+
+      // let regExpression = new RegExp(input, "gimu")
+
         //otherwise if string matches display result
         x[i].style.display="list-item";                 
     }

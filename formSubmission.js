@@ -1,31 +1,8 @@
-const form1 = document.getElementById("myform");
+var data = JSON.parse(localStorage.getItem("data") || "[]");
+console.log(data)
+
 const formDetails = document.getElementById("formDetails");
-console.log(formDetails);
-var data = [];
-
-async function getData(){
-    form1.addEventListener("submit",async (e)=>{
-        e.preventDefault();
-        const formData = new FormData(form); 
-        
-        try{
-            const res = await fetch('https://httpbin.org/post',{
-                method:"POST",
-                body: formData,
-            })
-            let dataJson= await res.json();
-            data.push(dataJson);
-            // window.location.href("submitContact.html")
-        }
-        catch{
-            console.log("error");
-        }
-            
-    })
-}
-
-
-getData();
+console.log(formDetails)
 
 
 
